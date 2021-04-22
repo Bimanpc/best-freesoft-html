@@ -1,0 +1,1436 @@
+
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_002{font-family:Times,serif;font-size:22.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_002{font-family:Times,serif;font-size:22.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_003{font-family:Times,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_003{font-family:Times,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_004{font-family:Times,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_004{font-family:Times,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_005{font-family:Times,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_005{font-family:Times,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_006{font-family:Times,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_006{font-family:Times,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_010{font-family:Times,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_010{font-family:Times,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_007{font-family:Times,serif;font-size:3.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_007{font-family:Times,serif;font-size:3.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_012{font-family:Times,serif;font-size:65.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_012{font-family:Times,serif;font-size:65.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_008{font-family:Times,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_008{font-family:Times,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_009{font-family:Times,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_009{font-family:Times,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_011{font-family:Times,serif;font-size:5.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_011{font-family:Times,serif;font-size:5.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_013{font-family:Times,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_013{font-family:Times,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_014{font-family:Times,serif;font-size:4.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_014{font-family:Times,serif;font-size:4.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_015{font-family:Times,serif;font-size:16.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_015{font-family:Times,serif;font-size:16.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_018{font-family:Times,serif;font-size:4.0px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_018{font-family:Times,serif;font-size:4.0px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_021{font-family:Times,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_021{font-family:Times,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_020{font-family:Times,serif;font-size:3.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_020{font-family:Times,serif;font-size:3.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_017{font-family:Times,serif;font-size:2.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_017{font-family:Times,serif;font-size:2.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_019{font-family:Times,serif;font-size:5.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_019{font-family:Times,serif;font-size:5.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_022{font-family:Times,serif;font-size:2.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_022{font-family:Times,serif;font-size:2.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_016{font-family:Times,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_016{font-family:Times,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_023{font-family:Times,serif;font-size:31.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_023{font-family:Times,serif;font-size:31.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_024{font-family:Times,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_024{font-family:Times,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_025{font-family:Times,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_025{font-family:Times,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_026{font-family:Times,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_026{font-family:Times,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_027{font-family:Times,serif;font-size:21.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_027{font-family:Times,serif;font-size:21.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_028{font-family:Times,serif;font-size:18.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_028{font-family:Times,serif;font-size:18.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_029{font-family:Times,serif;font-size:24.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_029{font-family:Times,serif;font-size:24.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_030{font-family:Times,serif;font-size:30.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_030{font-family:Times,serif;font-size:30.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_032{font-family:Times,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_032{font-family:Times,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_031{font-family:Times,serif;font-size:32.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_031{font-family:Times,serif;font-size:32.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_035{font-family:Times,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_035{font-family:Times,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_033{font-family:Times,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_033{font-family:Times,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_034{font-family:Times,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_034{font-family:Times,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_036{font-family:Times,serif;font-size:18.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_036{font-family:Times,serif;font-size:18.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_037{font-family:Times,serif;font-size:25.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_037{font-family:Times,serif;font-size:25.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_038{font-family:Times,serif;font-size:1.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_038{font-family:Times,serif;font-size:1.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_039{font-family:Times,serif;font-size:4.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_039{font-family:Times,serif;font-size:4.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_041{font-family:Times,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_041{font-family:Times,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_040{font-family:Times,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_040{font-family:Times,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_042{font-family:Times,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_042{font-family:Times,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_043{font-family:Times,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_043{font-family:Times,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_044{font-family:Times,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_044{font-family:Times,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_047{font-family:Times,serif;font-size:63.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_047{font-family:Times,serif;font-size:63.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_045{font-family:Times,serif;font-size:15.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_045{font-family:Times,serif;font-size:15.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_046{font-family:Times,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_046{font-family:Times,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_048{font-family:Times,serif;font-size:3.0px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_048{font-family:Times,serif;font-size:3.0px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_050{font-family:Times,serif;font-size:31.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_050{font-family:Times,serif;font-size:31.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_051{font-family:Times,serif;font-size:5.0px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_051{font-family:Times,serif;font-size:5.0px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_052{font-family:Arial,serif;font-size:3.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_052{font-family:Arial,serif;font-size:3.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_053{font-family:Times,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_053{font-family:Times,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_049{font-family:Times,serif;font-size:3.0px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_049{font-family:Times,serif;font-size:3.0px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-306px;top:0px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:240.48px;top:22.88px" class="cls_002"><span class="cls_002">SOFTWARE  GUIDE</span></div>
+<div style="position:absolute;left:57.36px;top:83.20px" class="cls_003"><span class="cls_003">INFRAV</span></div>
+<div style="position:absolute;left:57.12px;top:103.36px" class="cls_003"><span class="cls_003">.,004KIDs</span></div>
+<div style="position:absolute;left:62.64px;top:153.76px" class="cls_003"><span class="cls_003">E</span></div>
+<div style="position:absolute;left:93.60px;top:153.76px" class="cls_003"><span class="cls_003">Y</span></div>
+<div style="position:absolute;left:128.16px;top:154.00px" class="cls_003"><span class="cls_003">X</span></div>
+<div style="position:absolute;left:167.28px;top:154.00px" class="cls_003"><span class="cls_003">P</span></div>
+<div style="position:absolute;left:200.88px;top:154.00px" class="cls_003"><span class="cls_003">H</span></div>
+<div style="position:absolute;left:243.36px;top:154.24px" class="cls_003"><span class="cls_003">Y</span></div>
+<div style="position:absolute;left:276.00px;top:154.24px" class="cls_003"><span class="cls_003">T</span></div>
+<div style="position:absolute;left:309.12px;top:154.48px" class="cls_003"><span class="cls_003">IT</span></div>
+<div style="position:absolute;left:367.20px;top:154.48px" class="cls_003"><span class="cls_003">O</span></div>
+<div style="position:absolute;left:406.80px;top:154.48px" class="cls_003"><span class="cls_003">F</span></div>
+<div style="position:absolute;left:437.04px;top:154.48px" class="cls_003"><span class="cls_003">F</span></div>
+<div style="position:absolute;left:466.56px;top:154.48px" class="cls_003"><span class="cls_003">I</span></div>
+<div style="position:absolute;left:487.44px;top:154.48px" class="cls_003"><span class="cls_003">C</span></div>
+<div style="position:absolute;left:521.28px;top:154.48px" class="cls_003"><span class="cls_003">E</span></div>
+<div style="position:absolute;left:63.12px;top:202.00px" class="cls_003"><span class="cls_003">S</span></div>
+<div style="position:absolute;left:86.88px;top:202.00px" class="cls_003"><span class="cls_003">U</span></div>
+<div style="position:absolute;left:127.44px;top:201.52px" class="cls_003"><span class="cls_003">I</span></div>
+<div style="position:absolute;left:146.64px;top:201.28px" class="cls_003"><span class="cls_003">T</span></div>
+<div style="position:absolute;left:179.76px;top:201.28px" class="cls_003"><span class="cls_003">E</span></div>
+<div style="position:absolute;left:225.36px;top:201.28px" class="cls_003"><span class="cls_003">H</span></div>
+<div style="position:absolute;left:273.60px;top:201.28px" class="cls_003"><span class="cls_003">A</span></div>
+<div style="position:absolute;left:325.92px;top:201.52px" class="cls_003"><span class="cls_003">I</span></div>
+<div style="position:absolute;left:347.04px;top:201.52px" class="cls_003"><span class="cls_003">T</span></div>
+<div style="position:absolute;left:366.48px;top:201.76px" class="cls_003"><span class="cls_003">A</span></div>
+<div style="position:absolute;left:406.56px;top:201.76px" class="cls_003"><span class="cls_003">T</span></div>
+<div style="position:absolute;left:426.48px;top:201.76px" class="cls_003"><span class="cls_003">A</span></div>
+<div style="position:absolute;left:459.84px;top:201.76px" class="cls_003"><span class="cls_003">I</span></div>
+<div style="position:absolute;left:478.56px;top:201.76px" class="cls_003"><span class="cls_003">A</span></div>
+<div style="position:absolute;left:61.44px;top:250.92px" class="cls_004"><span class="cls_004">To OOo4Kids elvat</span></div>
+<div style="position:absolute;left:59.76px;top:262.04px" class="cls_005"><span class="cls_005">eta </span><span class="cls_004">aovfta tpayelov</span></div>
+<div style="position:absolute;left:59.52px;top:280.44px" class="cls_004"><span class="cls_004">;le E.A.Aqvuoj</span></div>
+<div style="position:absolute;left:60.24px;top:294.84px" class="cls_004"><span class="cls_004">nefullci.Uov, nov</span></div>
+<div style="position:absolute;left:58.56px;top:309.96px" class="cls_004"><span class="cls_004">f</span></div>
+<div style="position:absolute;left:58.56px;top:309.96px" class="cls_004"><span class="cls_004">i</span></div>
+<div style="position:absolute;left:66.72px;top:309.48px" class="cls_004"><span class="cls_004">aaacTai OTO Open</span></div>
+<div style="position:absolute;left:60.24px;top:324.12px" class="cls_004"><span class="cls_004">Office Kai >1 onora</span></div>
+<div style="position:absolute;left:60.00px;top:338.76px" class="cls_004"><span class="cls_004">owitovppiOgne pa</span></div>
+<div style="position:absolute;left:60.00px;top:352.92px" class="cls_004"><span class="cls_004">va xpriallionozettat</span></div>
+<div style="position:absolute;left:60.00px;top:367.80px" class="cls_004"><span class="cls_004">and naz8sce. Eival</span></div>
+<div style="position:absolute;left:72.00px;top:382.44px" class="cls_004"><span class="cls_004">Alnri )car noAd</span></div>
+<div style="position:absolute;left:112.32px;top:397.56px" class="cls_004"><span class="cls_004">onare</span></div>
+<div style="position:absolute;left:58.80px;top:411.72px" class="cls_004"><span class="cls_004">/impel va Ka.letpez</span></div>
+<div style="position:absolute;left:59.52px;top:426.36px" class="cls_006"><span class="cls_006">TIC IfiVarKEC tat </span><span class="cls_004">Tzev</span></div>
+<div style="position:absolute;left:60.00px;top:441.24px" class="cls_004"><span class="cls_004">nepiaadreprev</span></div>
+<div style="position:absolute;left:59.52px;top:455.64px" class="cls_004"><span class="cls_004">evlAinrev.</span></div>
+<div style="position:absolute;left:230.40px;top:530.88px" class="cls_010"><span class="cls_010">i Evr)/uKec n(vro 6-</span></div>
+<div style="position:absolute;left:324.72px;top:527.64px" class="cls_006"><span class="cls_006">Ap/aq pc/NM/ME-rat ono Trio</span></div>
+<div style="position:absolute;left:464.40px;top:527.88px" class="cls_006"><span class="cls_006">Fla vet El.cxyclyeTe 1.60 c/Kava.</span></div>
+<div style="position:absolute;left:78.24px;top:531.04px" class="cls_003"><span class="cls_003">ME MIA MATIA</span></div>
+<div style="position:absolute;left:230.16px;top:538.92px" class="cls_010"><span class="cls_010">Xav TO eaKfi </span><span class="cls_006">TOUR</span></div>
+<div style="position:absolute;left:324.72px;top:538.68px" class="cls_006"><span class="cls_006">flpopohrl, pE /qv eruNarl Erti-</span></div>
+<div style="position:absolute;left:455.52px;top:538.68px" class="cls_006"><span class="cls_006">xptioLporrocirc TO ELKOVAO pe</span></div>
+<div style="position:absolute;left:230.16px;top:551.88px" class="cls_006"><span class="cls_006">nPOYOPPIra </span><span class="cls_010">Yia</span></div>
+<div style="position:absolute;left:324.48px;top:549.96px" class="cls_006"><span class="cls_006">neZo   to Mil NeuKtiNuvari</span></div>
+<div style="position:absolute;left:455.52px;top:549.96px" class="cls_006"><span class="cls_006">/Inv napaNia. Me. te)l Kilict. &ye-</span></div>
+<div style="position:absolute;left:67.92px;top:556.68px" class="cls_006"><span class="cls_006">AnAITOYMENOIXPONDI</span></div>
+<div style="position:absolute;left:230.16px;top:561.48px" class="cls_006"><span class="cls_006">ypc4too Optug /Lis-</span></div>
+<div style="position:absolute;left:324.48px;top:561.48px" class="cls_006"><span class="cls_006">civet/ 1.1 ou/Oparri cLoaywr)</span></div>
+<div style="position:absolute;left:455.52px;top:561.00px" class="cls_006"><span class="cls_006">/at ni 6uvcrr6rrrra rtpacetitaiq</span></div>
+<div style="position:absolute;left:84.72px;top:572.52px" class="cls_007"><span class="cls_007">li</span></div>
+<div style="position:absolute;left:196.32px;top:471.64px" class="cls_012"><span class="cls_012">0</span></div>
+<div style="position:absolute;left:230.64px;top:571.80px" class="cls_006"><span class="cls_006">pa to </span><span class="cls_010">rim5416 </span><span class="cls_006">6140E-</span></div>
+<div style="position:absolute;left:324.24px;top:572.28px" class="cls_006"><span class="cls_006">ripepaptiviaq KOI thpaq. ps //Tv</span></div>
+<div style="position:absolute;left:456.00px;top:572.28px" class="cls_006"><span class="cls_006">ke4Ovraq pc autooarri opiepti-</span></div>
+<div style="position:absolute;left:67.92px;top:582.84px" class="cls_006"><span class="cls_006">EninEao A Y 1KO IAI</span></div>
+<div style="position:absolute;left:193.20px;top:583.08px" class="cls_006"><span class="cls_006">TOM Oil Kat)TEPO! .i-IpBE TO</span></div>
+<div style="position:absolute;left:324.48px;top:582.84px" class="cls_006"><span class="cls_006">en Awl) Etocrywyfi -></span></div>
+<div style="position:absolute;left:456.00px;top:582.84px" class="cls_006"><span class="cls_006">on. Ivy Avaoinkoari aMd(„ett</span></div>
+<div style="position:absolute;left:193.20px;top:593.88px" class="cls_006"><span class="cls_006">0004 Kids. eva ttoN6 601514,00-</span></div>
+<div style="position:absolute;left:324.96px;top:593.64px" class="cls_006"><span class="cls_006">Hpspoprivfoi Loa. Erniv iola N-</span></div>
+<div style="position:absolute;left:455.28px;top:593.64px" class="cls_006"><span class="cls_006">tri °toil TIN cl,KovacaE agar/</span></div>
+<div style="position:absolute;left:67.68px;top:609.48px" class="cls_006"><span class="cls_006">Acv ortocovtat goitcpcc yvtimic</span></div>
+<div style="position:absolute;left:193.20px;top:605.40px" class="cls_006"><span class="cls_006">47110, CPyptiOTO, OMO KO 0O-</span></div>
+<div style="position:absolute;left:324.72px;top:605.16px" class="cls_006"><span class="cls_006">ara OpioKetat </span><span class="cls_010">Enkrei </span><span class="cls_006">/tau</span></div>
+<div style="position:absolute;left:455.76px;top:604.92px" class="cls_006"><span class="cls_006">pE TO KEipEVO, 01tAVOVIoc IT1</span></div>
+<div style="position:absolute;left:193.68px;top:616.44px" class="cls_006"><span class="cls_006">papa npaypappa yta KdOe rtc-</span></div>
+<div style="position:absolute;left:324.72px;top:616.44px" class="cls_006"><span class="cls_006">rtpapEitrci apt0p6 oalEioq</span></div>
+<div style="position:absolute;left:455.76px;top:616.20px" class="cls_006"><span class="cls_006">CTIO vovro fi oe nptirto Mayo</span></div>
+<div style="position:absolute;left:193.68px;top:627.72px" class="cls_006"><span class="cls_006">picnratr. Avoiyovraq TO, 61.1.0O-</span></div>
+<div style="position:absolute;left:333.36px;top:627.48px" class="cls_006"><span class="cls_006">no vet LuttpthrelE  vet oeye•</span></div>
+<div style="position:absolute;left:455.76px;top:627.24px" class="cls_006"><span class="cls_006">TO rplarraia </span><span class="cls_010">acoveio </span><span class="cls_006">avotycl</span></div>
+<div style="position:absolute;left:67.68px;top:638.76px" class="cls_008"><span class="cls_008">Ti </span><span class="cls_006">XPRAZEITE</span></div>
+<div style="position:absolute;left:193.44px;top:637.80px" class="cls_006"><span class="cls_006">a,ET0,1 kb </span><span class="cls_010">Kap-rata </span><span class="cls_006">pE Tit; pap-</span></div>
+<div style="position:absolute;left:324.72px;top:638.28px" class="cls_006"><span class="cls_006">efiVETE to *Lopata. xprioLpo-</span></div>
+<div style="position:absolute;left:455.76px;top:638.04px" class="cls_006"><span class="cls_006">eva pevoCi oxrdtioarlq, pc To</span></div>
+<div style="position:absolute;left:69.12px;top:652.28px" class="cls_009"><span class="cls_009">• </span><span class="cls_010">To npOypa</span></div>
+<div style="position:absolute;left:111.84px;top:652.04px" class="cls_010"><span class="cls_010">►o OOo4kids. Eia </span><span class="cls_009">to</span></div>
+<div style="position:absolute;left:193.44px;top:649.08px" class="cls_006"><span class="cls_006">cpec hetroupyiaq TOU. Aq ooPoc</span></div>
+<div style="position:absolute;left:324.48px;top:648.60px" class="cls_006"><span class="cls_006">nolcitt Ta ElKOVZLEI pE TO A To</span></div>
+<div style="position:absolute;left:455.52px;top:648.60px" class="cls_006"><span class="cls_006">onoio EAOQVETE opeoythvto Ka/</span></div>
+<div style="position:absolute;left:74.64px;top:658.92px" class="cls_006"><span class="cls_006">eptiTE Crrrl </span><span class="cls_010">oukikorl .Focus.</span></div>
+<div style="position:absolute;left:193.44px;top:660.12px" class="cls_006"><span class="cls_006">nth </span><span class="cls_010"> priopei </span><span class="cls_006">va oaq egunnact-</span></div>
+<div style="position:absolute;left:324.48px;top:660.12px" class="cls_006"><span class="cls_006">xpthoo cam4i pc 5cf,i KAIK KOL</span></div>
+<div style="position:absolute;left:455.52px;top:660.12px" class="cls_006"><span class="cls_006">KOKkouq, p000 orouq °nal-0aq</span></div>
+<div style="position:absolute;left:74.64px;top:670.32px" class="cls_010"><span class="cls_010">sou DIM.</span></div>
+<div style="position:absolute;left:193.44px;top:669.00px" class="cls_006"><span class="cls_006">OEI Kale pit EAxtivia-rd</span></div>
+<div style="position:absolute;left:324.48px;top:671.16px" class="cls_006"><span class="cls_006">Tiv &Tlllkoyrl XapaKtpaq -</span></div>
+<div style="position:absolute;left:456.00px;top:671.40px" class="cls_006"><span class="cls_006">pnapctre va yptdtpen. Eia va</span></div>
+<div style="position:absolute;left:59.52px;top:683.08px" class="cls_011"><span class="cls_011">r</span></div>
+<div style="position:absolute;left:60.96px;top:683.08px" class="cls_011"><span class="cls_011">■</span></div>
+<div style="position:absolute;left:78.00px;top:683.08px" class="cls_011"><span class="cls_011">Imem■</span></div>
+<div style="position:absolute;left:96.00px;top:683.08px" class="cls_011"><span class="cls_011">w</span></div>
+<div style="position:absolute;left:122.88px;top:683.56px" class="cls_011"><span class="cls_011">o_m■!1■■•■■ITINAIn</span></div>
+<div style="position:absolute;left:324.48px;top:682.44px" class="cls_006"><span class="cls_006">Ecot xapaKrepov -> </span><span class="cls_008">Xptuua</span></div>
+<div style="position:absolute;left:456.00px;top:682.20px" class="cls_006"><span class="cls_006">erhog3icsicauv </span><span class="cls_010">of </span><span class="cls_006">he.F.ELc ato</span></div>
+<div style="position:absolute;left:193.20px;top:692.48px" class="cls_013"><span class="cls_013">KELMENO</span></div>
+<div style="position:absolute;left:324.24px;top:693.24px" class="cls_006"><span class="cls_006">youppertooeipac.  to napdeu-</span></div>
+<div style="position:absolute;left:455.52px;top:692.76px" class="cls_006"><span class="cls_006">oxr51.10, KOVETE Etai KAIK, &Mt-</span></div>
+<div style="position:absolute;left:201.84px;top:704.28px" class="cls_006"><span class="cls_006">To ElKoviNo pc TO CITO6</span></div>
+<div style="position:absolute;left:324.96px;top:704.04px" class="cls_006"><span class="cls_006">pa ZENUI /ponanoLcirc TOV</span></div>
+<div style="position:absolute;left:456.00px;top:704.04px" class="cls_006"><span class="cls_006">yovtaq Ktipcvo -  rip000poo-</span></div>
+<div style="position:absolute;left:193.20px;top:715.08px" class="cls_010"><span class="cls_010">avOiya </span><span class="cls_006">£v0 </span><span class="cls_010">ticolf36,</span><span class="cls_006">1</span><span class="cls_010">thov a</span></div>
+<div style="position:absolute;left:288.24px;top:718.56px" class="cls_010"><span class="cls_010">p</span></div>
+<div style="position:absolute;left:297.60px;top:718.56px" class="cls_010"><span class="cls_010">5m.</span></div>
+<div style="position:absolute;left:324.24px;top:715.08px" class="cls_006"><span class="cls_006">rtpooctva-rahopo Kat to aye-</span></div>
+<div style="position:absolute;left:455.28px;top:715.08px" class="cls_006"><span class="cls_006">yei DIE rIkOiCIRD  Pori ricptypdo-</span></div>
+<div style="position:absolute;left:192.96px;top:726.36px" class="cls_006"><span class="cls_006">CiAtvo yta auyypaol Keipcvou.</span></div>
+<div style="position:absolute;left:324.72px;top:725.88px" class="cls_006"><span class="cls_006">Go, rgq envaveloc epyrsoiaq rj</span></div>
+<div style="position:absolute;left:455.76px;top:726.12px" class="cls_006"><span class="cls_006">perrN rta Va 860ETE MCI</span></div>
+<div style="position:absolute;left:192.96px;top:737.88px" class="cls_006"><span class="cls_006">ITO navr.0 ptpoq Tortoecroitvrai</span></div>
+<div style="position:absolute;left:324.72px;top:737.64px" class="cls_006"><span class="cls_006">rtpoNierc-re 96v/o ono 11-Tv</span></div>
+<div style="position:absolute;left:455.76px;top:737.64px" class="cls_006"><span class="cls_006">ypNloctra</span></div>
+<div style="position:absolute;left:524.88px;top:737.40px" class="cls_006"><span class="cls_006">axchkoueefre</span></div>
+<div style="position:absolute;left:192.96px;top:748.44px" class="cls_006"><span class="cls_006">OA </span><span class="cls_010">fioulK6c </span><span class="cls_006">Nettoupyieq_ 'Eva</span></div>
+<div style="position:absolute;left:324.72px;top:748.20px" class="cls_006"><span class="cls_006">Kocrao IlapaaKllvlo. Av </span><span class="cls_004">agAE-</span></div>
+<div style="position:absolute;left:455.76px;top:748.44px" class="cls_006"><span class="cls_006">to ploara iii law -   Kcipt-</span></div>
+<div style="position:absolute;left:193.44px;top:761.16px" class="cls_006"><span class="cls_006">XPriaPo XaPaKrtimcrma Eivai n</span></div>
+<div style="position:absolute;left:324.00px;top:759.24px" class="cls_004"><span class="cls_004">TE, </span><span class="cls_006">1.krtOpEile VO XtilpitIETE TO</span></div>
+<div style="position:absolute;left:455.76px;top:759.00px" class="cls_006"><span class="cls_006">va -> Kivo6pcvo KEWENO -</span></div>
+<div style="position:absolute;left:193.44px;top:770.76px" class="cls_006"><span class="cls_006">crttAoyei Oafiktoil t5uoKohiaq.</span></div>
+<div style="position:absolute;left:324.48px;top:770.52px" class="cls_006"><span class="cls_006">KEWEVO OE °VOW-</span></div>
+<div style="position:absolute;left:455.76px;top:770.52px" class="cls_006"><span class="cls_006">Eftpt</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:802px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:196.56px;top:33.20px" class="cls_014"><span class="cls_014">• 1.</span></div>
+<div style="position:absolute;left:399.60px;top:29.12px" class="cls_015"><span class="cls_015">0004K1DS</span></div>
+<div style="position:absolute;left:235.44px;top:144.32px" class="cls_018"><span class="cls_018">4.1=</span></div>
+<div style="position:absolute;left:250.08px;top:144.08px" class="cls_018"><span class="cls_018">4■•</span></div>
+<div style="position:absolute;left:309.12px;top:144.32px" class="cls_018"><span class="cls_018">rm.</span></div>
+<div style="position:absolute;left:471.84px;top:142.96px" class="cls_021"><span class="cls_021">•</span></div>
+<div style="position:absolute;left:475.44px;top:147.56px" class="cls_009"><span class="cls_009">F</span></div>
+<div style="position:absolute;left:296.40px;top:174.08px" class="cls_015"><span class="cls_015">' 411111110</span></div>
+<div style="position:absolute;left:308.40px;top:205.56px" class="cls_020"><span class="cls_020">I. maw •</span></div>
+<div style="position:absolute;left:335.76px;top:202.72px" class="cls_017"><span class="cls_017">M</span></div>
+<div style="position:absolute;left:340.56px;top:202.72px" class="cls_017"><span class="cls_017">En •</span></div>
+<div style="position:absolute;left:354.48px;top:202.96px" class="cls_017"><span class="cls_017">mr.I</span></div>
+<div style="position:absolute;left:236.40px;top:211.96px" class="cls_019"><span class="cls_019">11,-•</span></div>
+<div style="position:absolute;left:366.00px;top:216.64px" class="cls_017"><span class="cls_017">• YE.</span></div>
+<div style="position:absolute;left:236.64px;top:217.00px" class="cls_019"><span class="cls_019">e •■-</span></div>
+<div style="position:absolute;left:302.88px;top:221.40px" class="cls_020"><span class="cls_020">foar</span></div>
+<div style="position:absolute;left:236.64px;top:229.24px" class="cls_019"><span class="cls_019">111.</span></div>
+<div style="position:absolute;left:297.12px;top:233.88px" class="cls_020"><span class="cls_020">1,••■•••</span></div>
+<div style="position:absolute;left:302.88px;top:231.04px" class="cls_017"><span class="cls_017">•••••</span></div>
+<div style="position:absolute;left:326.64px;top:231.04px" class="cls_017"><span class="cls_017">•••••</span></div>
+<div style="position:absolute;left:331.92px;top:234.64px" class="cls_017"><span class="cls_017">N. -</span></div>
+<div style="position:absolute;left:334.56px;top:230.80px" class="cls_017"><span class="cls_017">∎</span></div>
+<div style="position:absolute;left:339.60px;top:234.88px" class="cls_017"><span class="cls_017">M</span></div>
+<div style="position:absolute;left:344.40px;top:234.64px" class="cls_017"><span class="cls_017">I. or</span></div>
+<div style="position:absolute;left:354.96px;top:231.04px" class="cls_017"><span class="cls_017">4.</span></div>
+<div style="position:absolute;left:356.88px;top:231.04px" class="cls_017"><span class="cls_017">4</span></div>
+<div style="position:absolute;left:362.64px;top:230.04px" class="cls_017"><span class="cls_017">• </span><span class="cls_020">or</span></div>
+<div style="position:absolute;left:371.28px;top:230.04px" class="cls_020"><span class="cls_020">m</span></div>
+<div style="position:absolute;left:373.44px;top:235.12px" class="cls_017"><span class="cls_017">IM011.</span></div>
+<div style="position:absolute;left:382.80px;top:230.04px" class="cls_007"><span class="cls_007">Y</span></div>
+<div style="position:absolute;left:386.40px;top:229.80px" class="cls_007"><span class="cls_007">V</span><span class="cls_017">11</span></div>
+<div style="position:absolute;left:390.00px;top:235.12px" class="cls_017"><span class="cls_017">=</span></div>
+<div style="position:absolute;left:393.12px;top:235.12px" class="cls_017"><span class="cls_017">0..•</span></div>
+<div style="position:absolute;left:400.80px;top:235.12px" class="cls_017"><span class="cls_017">■</span></div>
+<div style="position:absolute;left:406.56px;top:235.12px" class="cls_017"><span class="cls_017">■</span></div>
+<div style="position:absolute;left:304.56px;top:242.32px" class="cls_017"><span class="cls_017">=I</span></div>
+<div style="position:absolute;left:308.16px;top:242.32px" class="cls_017"><span class="cls_017">0</span></div>
+<div style="position:absolute;left:311.28px;top:242.32px" class="cls_017"><span class="cls_017">.0</span></div>
+<div style="position:absolute;left:322.56px;top:242.56px" class="cls_017"><span class="cls_017">gm</span></div>
+<div style="position:absolute;left:336.96px;top:242.56px" class="cls_017"><span class="cls_017">■</span></div>
+<div style="position:absolute;left:337.68px;top:242.56px" class="cls_017"><span class="cls_017">■</span></div>
+<div style="position:absolute;left:238.56px;top:251.40px" class="cls_020"><span class="cls_020">4</span></div>
+<div style="position:absolute;left:245.52px;top:251.40px" class="cls_007"><span class="cls_007">rr</span></div>
+<div style="position:absolute;left:369.36px;top:250.72px" class="cls_017"><span class="cls_017">=</span></div>
+<div style="position:absolute;left:372.48px;top:250.72px" class="cls_017"><span class="cls_017">mos</span></div>
+<div style="position:absolute;left:383.04px;top:250.72px" class="cls_017"><span class="cls_017">•■••.•••■••■•</span></div>
+<div style="position:absolute;left:233.04px;top:269.92px" class="cls_021"><span class="cls_021">SI</span></div>
+<div style="position:absolute;left:243.60px;top:269.92px" class="cls_021"><span class="cls_021">M</span></div>
+<div style="position:absolute;left:431.04px;top:273.28px" class="cls_022"><span class="cls_022">T</span></div>
+<div style="position:absolute;left:434.40px;top:273.52px" class="cls_022"><span class="cls_022">).</span></div>
+<div style="position:absolute;left:31.68px;top:287.48px" class="cls_016"><span class="cls_016">oIsAiGo sou Goo-414Idst Mrroptrra vo bliploupvgarre</span></div>
+<div style="position:absolute;left:235.44px;top:263.48px" class="cls_023"><span class="cls_023">2</span></div>
+<div style="position:absolute;left:251.28px;top:263.48px" class="cls_023"><span class="cls_023">7 r0. PLEIVEVO pi</span></div>
+<div style="position:absolute;left:306.00px;top:263.96px" class="cls_023"><span class="cls_023">OVE1TC W TRO79CetTC</span></div>
+<div style="position:absolute;left:387.36px;top:288.44px" class="cls_016"><span class="cls_016">noruxsapo </span><span class="cls_009">axipore</span></div>
+<div style="position:absolute;left:30.96px;top:295.40px" class="cls_016"><span class="cls_016">sroirtvou, tosoo-roto crxtbea-, nopoucTlau414 r </span><span class="cls_009">csurucr</span></div>
+<div style="position:absolute;left:251.28px;top:296.12px" class="cls_009"><span class="cls_009">arocopww</span></div>
+<div style="position:absolute;left:288.24px;top:272.36px" class="cls_023"><span class="cls_023">EqE ET1/ric, To y1411CTO E</span></div>
+<div style="position:absolute;left:388.80px;top:272.60px" class="cls_023"><span class="cls_023">IVOI 5JVCTOV e0</span></div>
+<div style="position:absolute;left:25.92px;top:304.28px" class="cls_009"><span class="cls_009">cnior.</span></div>
+<div style="position:absolute;left:250.80px;top:280.76px" class="cls_023"><span class="cls_023">R</span></div>
+<div style="position:absolute;left:255.12px;top:280.76px" class="cls_023"><span class="cls_023">IVOUV7011</span></div>
+<div style="position:absolute;left:289.68px;top:280.76px" class="cls_023"><span class="cls_023">1444</span></div>
+<div style="position:absolute;left:307.68px;top:280.76px" class="cls_023"><span class="cls_023">TOUOXIIPUT0q,</span></div>
+<div style="position:absolute;left:33.60px;top:335.20px" class="cls_017"><span class="cls_017">■</span></div>
+<div style="position:absolute;left:37.92px;top:335.20px" class="cls_017"><span class="cls_017">••</span></div>
+<div style="position:absolute;left:43.92px;top:334.96px" class="cls_017"><span class="cls_017">••■</span></div>
+<div style="position:absolute;left:48.00px;top:334.96px" class="cls_017"><span class="cls_017">■</span></div>
+<div style="position:absolute;left:51.60px;top:334.96px" class="cls_017"><span class="cls_017">•</span></div>
+<div style="position:absolute;left:55.92px;top:334.72px" class="cls_017"><span class="cls_017">1•101</span></div>
+<div style="position:absolute;left:63.36px;top:334.72px" class="cls_017"><span class="cls_017">m</span></div>
+<div style="position:absolute;left:252.96px;top:402.80px" class="cls_014"><span class="cls_014">■</span></div>
+<div style="position:absolute;left:9.12px;top:478.04px" class="cls_016"><span class="cls_016">Skoog Tout~ Topa; Too opoypairpoToc pi-Rope/sic Va</span></div>
+<div style="position:absolute;left:251.76px;top:478.52px" class="cls_016"><span class="cls_016">To 314a441f111 zpyoksio poop-Dow </span><span class="cls_024">vu</span></div>
+<div style="position:absolute;left:379.20px;top:455.00px" class="cls_023"><span class="cls_023">fICATIWOOLIV</span></div>
+<div style="position:absolute;left:423.12px;top:479.00px" class="cls_016"><span class="cls_016">oloterra Trc</span></div>
+<div style="position:absolute;left:16.32px;top:486.92px" class="cls_016"><span class="cls_016">Drriocrs nAolcno roarlyrionc, btoyOpyray iropytry,</span></div>
+<div style="position:absolute;left:199.44px;top:463.16px" class="cls_023"><span class="cls_023">at</span></div>
+<div style="position:absolute;left:251.76px;top:487.16px" class="cls_016"><span class="cls_016">r/soytc croc war </span><span class="cls_024">va</span></div>
+<div style="position:absolute;left:320.16px;top:463.64px" class="cls_023"><span class="cls_023">TOIJg</span></div>
+<div style="position:absolute;left:339.12px;top:487.64px" class="cls_016"><span class="cls_016">opooasarouy alopropo not.</span></div>
+<div style="position:absolute;left:12.24px;top:471.32px" class="cls_023"><span class="cls_023">;M</span></div>
+<div style="position:absolute;left:21.60px;top:471.56px" class="cls_023"><span class="cls_023">alta,</span></div>
+<div style="position:absolute;left:234.00px;top:454.52px" class="cls_023"><span class="cls_023">4</span></div>
+<div style="position:absolute;left:15.60px;top:532.76px" class="cls_016"><span class="cls_016">'-(1E,ETE X101.4p0 OTO</span></div>
+<div style="position:absolute;left:102.72px;top:532.52px" class="cls_009"><span class="cls_009">get pa gro6oKa NahOyou). </span><span class="cls_025">Mc</span></div>
+<div style="position:absolute;left:233.76px;top:533.00px" class="cls_016"><span class="cls_016">)1/41170„ </span><span class="cls_009">any ibLo Alma unapxci</span></div>
+<div style="position:absolute;left:17.28px;top:543.80px" class="cls_016"><span class="cls_016">TO </span><span class="cls_009">yepioett µE Ka-</span></div>
+<div style="position:absolute;left:102.72px;top:544.04px" class="cls_009"><span class="cls_009">auto, av kc-rs pia cLKava, pno-</span></div>
+<div style="position:absolute;left:249.12px;top:544.28px" class="cls_009"><span class="cls_009">xapaKan Mc aura, 0.-pvo-</span></div>
+<div style="position:absolute;left:16.56px;top:554.84px" class="cls_009"><span class="cls_009">:At </span><span class="cls_010">5E4 </span><span class="cls_009">tap( cntht-</span></div>
+<div style="position:absolute;left:102.48px;top:555.32px" class="cls_009"><span class="cls_009">pF.itc via Trig npooetnerct3ari</span></div>
+<div style="position:absolute;left:234.00px;top:555.08px" class="cls_009"><span class="cls_009">vtac pia curkia, fihincrE aura-</span></div>
+<div style="position:absolute;left:17.52px;top:566.12px" class="cls_009"><span class="cls_009">op). Eta va cLoaya-</span></div>
+<div style="position:absolute;left:102.48px;top:566.12px" class="cls_016"><span class="cls_016">IJE </span><span class="cls_009">EncrlynpanKa kcipcva.</span></div>
+<div style="position:absolute;left:234.24px;top:566.04px" class="cls_009"><span class="cls_009">pata TO pnKoc</span><span class="cls_008">Trlp</span></div>
+<div style="position:absolute;left:17.28px;top:577.16px" class="cls_009"><span class="cls_009">Ara aro axnpa, nri-</span></div>
+<div style="position:absolute;left:111.12px;top:576.92px" class="cls_009"><span class="cls_009">Fin via Moue oro ypappata</span></div>
+<div style="position:absolute;left:242.40px;top:577.40px" class="cls_009"><span class="cls_009">Eciv Korraomudocne </span><span class="cls_016">1.111a </span><span class="cls_009">6La-</span></div>
+<div style="position:absolute;left:19.92px;top:587.72px" class="cls_009"><span class="cls_009">ricoLoxn </span><span class="cls_016">KO/ Kato-</span></div>
+<div style="position:absolute;left:102.00px;top:587.96px" class="cls_009"><span class="cls_009">tpLoaqacrrara upt, avoiE,tc</span></div>
+<div style="position:absolute;left:233.28px;top:588.20px" class="cls_009"><span class="cls_009">taE,n Grua-raw pc To ctKovi6Lo</span></div>
+<div style="position:absolute;left:27.36px;top:599.00px" class="cls_009"><span class="cls_009">butmap. flarnarc</span></div>
+<div style="position:absolute;left:102.24px;top:598.76px" class="cls_016"><span class="cls_016">auk</span></div>
+<div style="position:absolute;left:120.24px;top:599.24px" class="cls_016"><span class="cls_016">W</span></div>
+<div style="position:absolute;left:131.52px;top:599.00px" class="cls_016"><span class="cls_016">) </span><span class="cls_009">Foniwork an6 </span><span class="cls_016">TO CIKO-</span></div>
+<div style="position:absolute;left:234.00px;top:599.24px" class="cls_009"><span class="cls_009">Toraonainoti puElipirgrz nato</span></div>
+<div style="position:absolute;left:16.08px;top:610.04px" class="cls_009"><span class="cls_009">3 </span><span class="cls_016">VO ET1IME,LIE ELKO-</span></div>
+<div style="position:absolute;left:102.24px;top:610.28px" class="cls_016"><span class="cls_016">vfoto</span></div>
+<div style="position:absolute;left:139.20px;top:610.28px" class="cls_009"><span class="cls_009">Apo() r5taikcgtc crxt-</span></div>
+<div style="position:absolute;left:233.52px;top:610.52px" class="cls_016"><span class="cls_016">TOTIOSETEATOI T110 </span><span class="cls_009">pripoard ono</span></div>
+<div style="position:absolute;left:21.36px;top:620.56px" class="cls_009"><span class="cls_009">1TK Ov01-10. </span><span class="cls_021">ETrI</span></div>
+<div style="position:absolute;left:102.48px;top:621.32px" class="cls_009"><span class="cls_009">5io </span><span class="cls_016">KCII </span><span class="cls_009">nary atre OK, </span><span class="cls_016">KOVTS</span></div>
+<div style="position:absolute;left:233.52px;top:621.32px" class="cls_009"><span class="cls_009">TO diNua_1-1.0 va -mug aMbE,crs</span></div>
+<div style="position:absolute;left:14.16px;top:632.60px" class="cls_009"><span class="cls_009">'inarc TO roupni pc</span></div>
+<div style="position:absolute;left:102.00px;top:632.36px" class="cls_016"><span class="cls_016">TIM 1041K </span><span class="cls_009">aro </span><span class="cls_016">KNTOO. Ef.4901,04-</span></div>
+<div style="position:absolute;left:233.52px;top:632.84px" class="cls_009"><span class="cls_009">TO xpthpa. kavEre 6cE,f </span><span class="cls_016">KAIK </span><span class="cls_024">Kal</span></div>
+<div style="position:absolute;left:15.12px;top:643.16px" class="cls_019"><span class="cls_019">Je </span><span class="cls_009">Save Kal Yes aro</span></div>
+<div style="position:absolute;left:102.00px;top:643.40px" class="cls_016"><span class="cls_016">TOIn</span></div>
+<div style="position:absolute;left:141.60px;top:643.40px" class="cls_009"><span class="cls_009">Fontwatk, rnv onoia</span></div>
+<div style="position:absolute;left:234.00px;top:639.40px" class="cls_009"><span class="cls_009">crriAiygre </span><span class="cls_026">nepioxn </span><span class="cls_009">Mrtopenc</span></div>
+<div style="position:absolute;left:19.68px;top:653.96px" class="cls_009"><span class="cls_009">aapaeupa Aura</span></div>
+<div style="position:absolute;left:102.24px;top:654.20px" class="cls_009"><span class="cls_009">CIVTIKoacrTOTE pc 10 Kcipcv6</span></div>
+<div style="position:absolute;left:233.28px;top:654.44px" class="cls_009"><span class="cls_009">va TO rponortognarre ttcpanc-</span></div>
+<div style="position:absolute;left:17.28px;top:665.24px" class="cls_016"><span class="cls_016">rT1V ELKOVO 01-4 OTT}</span></div>
+<div style="position:absolute;left:102.48px;top:666.92px" class="cls_009"><span class="cls_009">Oo</span></div>
+<div style="position:absolute;left:233.52px;top:663.96px" class="cls_009"><span class="cls_009">p41) </span><span class="cls_016">0T16 T011041111 </span><span class="cls_006">Ecpi</span></div>
+<div style="position:absolute;left:19.92px;top:676.28px" class="cls_009"><span class="cls_009">my npooappace-</span></div>
+<div style="position:absolute;left:233.52px;top:674.76px" class="cls_006"><span class="cls_006">Eva </span><span class="cls_009">KtiKhata </span><span class="cls_025">Rang </span><span class="cls_009">EL-sq appo</span></div>
+<div style="position:absolute;left:16.32px;top:687.56px" class="cls_009"><span class="cls_009">-1, enio-toNacts</span></div>
+<div style="position:absolute;left:102.00px;top:684.56px" class="cls_013"><span class="cls_013">EXEMAETE KATI</span></div>
+<div style="position:absolute;left:233.76px;top:687.80px" class="cls_009"><span class="cls_009">otoixCa) Ooov all>opo OTa</span></div>
+<div style="position:absolute;left:53.28px;top:698.36px" class="cls_009"><span class="cls_009">EKeitqa-</span></div>
+<div style="position:absolute;left:110.64px;top:698.36px" class="cls_009"><span class="cls_009">To npoypappa tpypaTiKnc</span></div>
+<div style="position:absolute;left:233.04px;top:698.60px" class="cls_009"><span class="cls_009">tplaNdarara avrixzpeva,</span></div>
+<div style="position:absolute;left:15.36px;top:708.44px" class="cls_009"><span class="cls_009">.1a -> </span><span class="cls_016">&Map KO</span></div>
+<div style="position:absolute;left:101.76px;top:709.16px" class="cls_009"><span class="cls_009">NaGerct lionernpa nou cptpel</span></div>
+<div style="position:absolute;left:233.52px;top:709.40px" class="cls_016"><span class="cls_016">PEiTe VO ICI CLOCINtryETE </span><span class="cls_009">pa duo</span></div>
+<div style="position:absolute;left:13.92px;top:720.20px" class="cls_009"><span class="cls_009">-3c aria rn kora</span></div>
+<div style="position:absolute;left:101.76px;top:720.44px" class="cls_009"><span class="cls_009">opLOvnzic </span><span class="cls_016">KCIl </span><span class="cls_009">KdOctec ypap-</span></div>
+<div style="position:absolute;left:233.52px;top:720.68px" class="cls_009"><span class="cls_009">toanouc. 0 too an?</span></div>
+<div style="position:absolute;left:306.24px;top:720.68px" class="cls_009"><span class="cls_009">*</span></div>
+<div style="position:absolute;left:319.92px;top:720.44px" class="cls_009"><span class="cls_009">duct pc</span></div>
+<div style="position:absolute;left:22.08px;top:731.48px" class="cls_009"><span class="cls_009">flyare </span><span class="cls_016">TO TIK </span><span class="cls_009">aria</span></div>
+<div style="position:absolute;left:102.00px;top:731.48px" class="cls_009"><span class="cls_009">ptq </span><span class="cls_016">1,1E- avi5cia BpiOICETOI </span><span class="cls_009">ac</span></div>
+<div style="position:absolute;left:233.04px;top:731.72px" class="cls_016"><span class="cls_016">TO CIKOViN0 </span><span class="cls_009">AvriKcipcva</span></div>
+<div style="position:absolute;left:17.04px;top:742.52px" class="cls_009"><span class="cls_009">h Ka</span></div>
+<div style="position:absolute;left:31.44px;top:742.52px" class="cls_009"><span class="cls_009">m</span></div>
+<div style="position:absolute;left:45.84px;top:742.52px" class="cls_009"><span class="cls_009">KALK GTO</span></div>
+<div style="position:absolute;left:102.00px;top:742.76px" class="cls_016"><span class="cls_016">gV0 COO TO EtKOV1N0 pE </span><span class="cls_009">rn</span></div>
+<div style="position:absolute;left:233.76px;top:743.00px" class="cls_016"><span class="cls_016">EYONICIKT1KO, KCITOOKEWYXTE</span></div>
+<div style="position:absolute;left:20.88px;top:753.80px" class="cls_009"><span class="cls_009">to 6ia86crlpa axn-</span></div>
+<div style="position:absolute;left:101.52px;top:753.08px" class="cls_009"><span class="cls_009">ypappn. Keivrc ?OA crip Remick</span></div>
+<div style="position:absolute;left:233.28px;top:753.80px" class="cls_016"><span class="cls_016">KCITI /51K6 </span><span class="cls_009">of:kg: </span><span class="cls_016">IXE.-olOaTE </span><span class="cls_009">dva</span></div>
+<div style="position:absolute;left:18.24px;top:764.12px" class="cls_009"><span class="cls_009">nooupc </span><span class="cls_016">GTO U110-</span></div>
+<div style="position:absolute;left:101.76px;top:764.36px" class="cls_016"><span class="cls_016">110</span></div>
+<div style="position:absolute;left:111.36px;top:764.36px" class="cls_016"><span class="cls_016">(1 </span><span class="cls_009">0-TORE' oinha Kol </span><span class="cls_016">grTIMATE</span></div>
+<div style="position:absolute;left:233.52px;top:764.60px" class="cls_016"><span class="cls_016">ET1iffeb0 OXILI130 KCIL OTT' 01N6-</span></div>
+<div style="position:absolute;left:18.48px;top:775.40px" class="cls_016"><span class="cls_016">.EaKovi66 </span><span class="cls_009">topc poi-</span></div>
+<div style="position:absolute;left:101.76px;top:775.40px" class="cls_016"><span class="cls_016">TO </span><span class="cls_009">araupa and ITN avatk.topcvn</span></div>
+<div style="position:absolute;left:233.52px;top:775.64px" class="cls_016"><span class="cls_016">xeio </span><span class="cls_009">rrcrrnarc IlepLarpcq)Opevo</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:1604px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:458.64px;top:0.00px" class="cls_010"><span class="cls_010">▪</span></div>
+<div style="position:absolute;left:77.04px;top:26.24px" class="cls_027"><span class="cls_027">HOW  TO</span><span class="cls_002">  SOFTWARE  GUIDE</span></div>
+<div style="position:absolute;left:69.84px;top:96.24px" class="cls_028"><span class="cls_028">IXEMAEll & IDYAAA </span><span class="cls_029">ynoAoriDaN</span></div>
+<div style="position:absolute;left:72.00px;top:140.28px" class="cls_020"><span class="cls_020">Ep.  mwom  mim</span></div>
+<div style="position:absolute;left:122.40px;top:140.28px" class="cls_020"><span class="cls_020">map.</span></div>
+<div style="position:absolute;left:144.72px;top:140.28px" class="cls_020"><span class="cls_020">.1</span></div>
+<div style="position:absolute;left:147.60px;top:140.28px" class="cls_020"><span class="cls_020">■</span></div>
+<div style="position:absolute;left:156.24px;top:140.28px" class="cls_020"><span class="cls_020">•••</span></div>
+<div style="position:absolute;left:162.00px;top:140.28px" class="cls_020"><span class="cls_020">■</span></div>
+<div style="position:absolute;left:169.92px;top:140.28px" class="cls_020"><span class="cls_020">.1</span></div>
+<div style="position:absolute;left:334.08px;top:141.00px" class="cls_020"><span class="cls_020">Pi■.. .504</span></div>
+<div style="position:absolute;left:361.44px;top:141.00px" class="cls_020"><span class="cls_020">F</span></div>
+<div style="position:absolute;left:366.48px;top:141.00px" class="cls_020"><span class="cls_020">rpn</span></div>
+<div style="position:absolute;left:384.48px;top:141.00px" class="cls_020"><span class="cls_020">1•■•</span></div>
+<div style="position:absolute;left:427.68px;top:141.00px" class="cls_020"><span class="cls_020">•411*</span></div>
+<div style="position:absolute;left:165.60px;top:148.20px" class="cls_020"><span class="cls_020">t   4</span></div>
+<div style="position:absolute;left:185.76px;top:148.20px" class="cls_020"><span class="cls_020">-</span></div>
+<div style="position:absolute;left:225.36px;top:147.56px" class="cls_009"><span class="cls_009">•</span></div>
+<div style="position:absolute;left:328.32px;top:145.92px" class="cls_017"><span class="cls_017">er </span><span class="cls_010">• n. a </span><span class="cls_020">I-</span></div>
+<div style="position:absolute;left:368.64px;top:148.92px" class="cls_020"><span class="cls_020">•</span></div>
+<div style="position:absolute;left:383.04px;top:148.92px" class="cls_020"><span class="cls_020">n</span></div>
+<div style="position:absolute;left:388.80px;top:148.92px" class="cls_020"><span class="cls_020">•</span></div>
+<div style="position:absolute;left:393.12px;top:148.92px" class="cls_020"><span class="cls_020">•</span></div>
+<div style="position:absolute;left:102.96px;top:254.92px" class="cls_019"><span class="cls_019">• a</span></div>
+<div style="position:absolute;left:120.24px;top:254.92px" class="cls_019"><span class="cls_019">;</span></div>
+<div style="position:absolute;left:149.76px;top:255.92px" class="cls_018"><span class="cls_018">I w o</span></div>
+<div style="position:absolute;left:172.08px;top:255.92px" class="cls_018"><span class="cls_018">-</span></div>
+<div style="position:absolute;left:179.28px;top:253.92px" class="cls_010"><span class="cls_010">11</span></div>
+<div style="position:absolute;left:447.12px;top:267.60px" class="cls_024"><span class="cls_024">•</span></div>
+<div style="position:absolute;left:86.40px;top:283.44px" class="cls_010"><span class="cls_010">To girl OM Orige11400111c   lifIelkTeli</span></div>
+<div style="position:absolute;left:198.00px;top:283.44px" class="cls_010"><span class="cls_010">10111,014)T1ll'a IPLOTOKFICEUlic</span></div>
+<div style="position:absolute;left:339.84px;top:284.16px" class="cls_010"><span class="cls_010">npnagpeRE.rtil </span><span class="cls_020">ELI pelP </span><span class="cls_019">ram </span><span class="cls_010">kori axillitiriVw, Orrui-c RuIRACH</span></div>
+<div style="position:absolute;left:86.40px;top:292.08px" class="cls_010"><span class="cls_010">TISFOI51013TEITUV alfT1114Elpevuni, iff CPPLIC MCI 3116941p12 rzpiopaTC1.</span></div>
+<div style="position:absolute;left:340.56px;top:292.08px" class="cls_010"><span class="cls_010">(10114145411BaKI), CITelj.JPEc liictipaprrie pop4pLaar CriAincli Kai gnimiimr4</span></div>
+<div style="position:absolute;left:73.44px;top:259.44px" class="cls_030"><span class="cls_030">1</span></div>
+<div style="position:absolute;left:86.40px;top:300.72px" class="cls_010"><span class="cls_010">ITO ma Fratiou po at4I0 cAtyx*tqat 1`0 spEaTray0-</span></div>
+<div style="position:absolute;left:324.00px;top:260.16px" class="cls_030"><span class="cls_030">2</span></div>
+<div style="position:absolute;left:339.84px;top:300.72px" class="cls_010"><span class="cls_010">OluAirro.u, EPWC I al.recrq MOP q UPC/11'11M 1,451-11.411 an  EFEbbo.</span></div>
+<div style="position:absolute;left:294.00px;top:322.44px" class="cls_007"><span class="cls_007">-Mamie</span></div>
+<div style="position:absolute;left:87.84px;top:468.72px" class="cls_010"><span class="cls_010">pat Ira EIROVISIO I</span></div>
+<div style="position:absolute;left:154.08px;top:468.72px" class="cls_010"><span class="cls_010">£ BIEJ</span></div>
+<div style="position:absolute;left:169.92px;top:468.72px" class="cls_010"><span class="cls_010">£ p9sprierrai paw V) wrropErre Ira</span></div>
+<div style="position:absolute;left:341.28px;top:468.72px" class="cls_010"><span class="cls_010">PillIFICIRGITZ VQ UT1419.1111ELPOCTL 111.  ayarvqpiewsc .o.a.c</span></div>
+<div style="position:absolute;left:87.12px;top:476.36px" class="cls_010"><span class="cls_010">rrposnettrETE au-rOpwre plc .111 I UT a tIplePlille. Filrianck okhrTal </span><span class="cls_016">q</span></div>
+<div style="position:absolute;left:341.28px;top:476.64px" class="cls_010"><span class="cls_010">popporolniatIc KC. poti. acne </span><span class="cls_032">wn </span><span class="cls_010">ric Lcianpliaxre Conn;{ 006rri</span></div>
+<div style="position:absolute;left:71.28px;top:443.72px" class="cls_023"><span class="cls_023">3</span></div>
+<div style="position:absolute;left:87.84px;top:486.00px" class="cls_010"><span class="cls_010">IIIPVCITOTTITC VIC rrpCF,Lic ow4pc.470 of ki.Clettc.</span></div>
+<div style="position:absolute;left:322.56px;top:442.72px" class="cls_031"><span class="cls_031">4</span></div>
+<div style="position:absolute;left:341.28px;top:486.00px" class="cls_032"><span class="cls_032">I+</span></div>
+<div style="position:absolute;left:352.08px;top:486.00px" class="cls_010"><span class="cls_010">T.00 Ci6IRO 'MOM.</span></div>
+<div style="position:absolute;left:193.68px;top:534.24px" class="cls_010"><span class="cls_010">0.VTA41.181/0 att (MO TO KaL.011</span></div>
+<div style="position:absolute;left:326.16px;top:534.24px" class="cls_010"><span class="cls_010">vivErai rrri.vaivovTaq a-ro rit6,41)</span></div>
+<div style="position:absolute;left:469.44px;top:534.24px" class="cls_010"><span class="cls_010">axalua, aaparo KUTU 111V</span></div>
+<div style="position:absolute;left:213.84px;top:545.76px" class="cls_010"><span class="cls_010">Trl OK'd TOU 6aVAPLOTEiTB</span></div>
+<div style="position:absolute;left:326.16px;top:545.04px" class="cls_010"><span class="cls_010">ikpoq Try 06Afbaq Kai €t11?'</span></div>
+<div style="position:absolute;left:432.72px;top:545.76px" class="cls_010"><span class="cls_010">-</span></div>
+<div style="position:absolute;left:457.92px;top:545.04px" class="cls_010"><span class="cls_010">napouo(cari. More va evpdbcrie</span></div>
+<div style="position:absolute;left:193.68px;top:557.28px" class="cls_010"><span class="cls_010">an6 T1   eniAve6q 3A Doti PO-</span></div>
+<div style="position:absolute;left:326.16px;top:556.56px" class="cls_010"><span class="cls_010">yov[aq Moptpil -> IcNiZa -></span></div>
+<div style="position:absolute;left:457.92px;top:556.56px" class="cls_010"><span class="cls_010">Tiq A.EFLT01,.</span></div>
+<div style="position:absolute;left:495.36px;top:556.56px" class="cls_010"><span class="cls_010">4</span></div>
+<div style="position:absolute;left:506.16px;top:556.56px" class="cls_010"><span class="cls_010">.818.q suKohidrtepa.</span></div>
+<div style="position:absolute;left:193.68px;top:568.08px" class="cls_010"><span class="cls_010">CKETE SEE </span><span class="cls_032">5€1i </span><span class="cls_010">Icklc 0.E OUTO. FLU</span></div>
+<div style="position:absolute;left:326.16px;top:568.08px" class="cls_010"><span class="cls_010">061orra</span></div>
+<div style="position:absolute;left:472.32px;top:567.36px" class="cls_010"><span class="cls_010">naperciipOorre Oil OTO Ka-</span></div>
+<div style="position:absolute;left:193.68px;top:578.88px" class="cls_010"><span class="cls_010">va ecpappocrrotiv at t.i,mralloV</span></div>
+<div style="position:absolute;left:458.64px;top:578.16px" class="cls_010"><span class="cls_010">11,1 tiEpoq TOu npaypchiparac</span></div>
+<div style="position:absolute;left:193.68px;top:589.68px" class="cls_010"><span class="cls_010">11p611E1 VO TIUTTIOETE TO 11</span></div>
+<div style="position:absolute;left:286.56px;top:589.68px" class="cls_010"><span class="cls_010">0</span></div>
+<div style="position:absolute;left:296.64px;top:589.68px" class="cls_010"><span class="cls_010">01-</span></div>
+<div style="position:absolute;left:326.16px;top:588.96px" class="cls_010"><span class="cls_010">iSHMIOYPTHETE MIA</span></div>
+<div style="position:absolute;left:458.64px;top:583.96px" class="cls_010"><span class="cls_010">cosixtvierai </span><span class="cls_035">n </span><span class="cls_010">Mara autipokiyy</span></div>
+<div style="position:absolute;left:193.68px;top:600.48px" class="cls_010"><span class="cls_010">vo rs4papa .v. &rea, 6g1a aro</span></div>
+<div style="position:absolute;left:326.88px;top:593.48px" class="cls_033"><span class="cls_033">n </span><span class="cls_013">APOYEIA111</span></div>
+<div style="position:absolute;left:457.92px;top:600.48px" class="cls_010"><span class="cls_010">tau mac]</span></div>
+<div style="position:absolute;left:514.56px;top:597.48px" class="cls_010"><span class="cls_010">iial11</span><span class="cls_008">1</span></div>
+<div style="position:absolute;left:542.88px;top:600.48px" class="cls_010"><span class="cls_010">Mrtop'ei-</span></div>
+<div style="position:absolute;left:193.68px;top:612.00px" class="cls_010"><span class="cls_010">rrAulato.</span></div>
+<div style="position:absolute;left:354.96px;top:611.04px" class="cls_010"><span class="cls_010">OVTar.I La Impress, Eripi-</span></div>
+<div style="position:absolute;left:457.92px;top:611.28px" class="cls_024"><span class="cls_024">TE </span><span class="cls_010">  TI1XiGethETE</span></div>
+<div style="position:absolute;left:546.48px;top:611.28px" class="cls_010"><span class="cls_010">130arl-</span></div>
+<div style="position:absolute;left:202.32px;top:622.80px" class="cls_010"><span class="cls_010">H Ix</span></div>
+<div style="position:absolute;left:220.32px;top:622.80px" class="cls_010"><span class="cls_010">a</span></div>
+<div style="position:absolute;left:231.12px;top:622.80px" class="cls_010"><span class="cls_010">aaq rou Ceo4kids</span></div>
+<div style="position:absolute;left:326.16px;top:622.80px" class="cls_010"><span class="cls_010">oupydrE pia Kam napouoiaari</span></div>
+<div style="position:absolute;left:470.16px;top:622.80px" class="cls_010"><span class="cls_010">Tiria6idarara uxripara. et.</span></div>
+<div style="position:absolute;left:193.68px;top:634.32px" class="cls_010"><span class="cls_010">ripoo</span></div>
+<div style="position:absolute;left:213.84px;top:634.32px" class="cls_010"><span class="cls_010">*</span></div>
+<div style="position:absolute;left:223.92px;top:634.32px" class="cls_010"><span class="cls_010">put 459mo4aAC:rv4mq</span></div>
+<div style="position:absolute;left:325.44px;top:633.32px" class="cls_009"><span class="cls_009">ETO </span><span class="cls_010">cparr,pa Etc ermre.rn Alma</span></div>
+<div style="position:absolute;left:458.64px;top:633.60px" class="cls_010"><span class="cls_010">Koveg</span></div>
+<div style="position:absolute;left:493.92px;top:633.60px" class="cls_010"><span class="cls_010">ociacrri. lotkRezq Na-</span></div>
+<div style="position:absolute;left:193.68px;top:645.12px" class="cls_010"><span class="cls_010">yia TO CrX</span></div>
+<div style="position:absolute;left:226.80px;top:645.12px" class="cls_010"><span class="cls_010">0</span></div>
+<div style="position:absolute;left:236.88px;top:644.40px" class="cls_010"><span class="cls_010">ICLI01.46 K61.1.1k M110-</span></div>
+<div style="position:absolute;left:349.92px;top:644.40px" class="cls_010"><span class="cls_010">61axpavm2x. Avotyavraq</span></div>
+<div style="position:absolute;left:458.64px;top:639.40px" class="cls_010"><span class="cls_010">hoycov r1 </span><span class="cls_035">go.n </span><span class="cls_010">axokaatio:yro MCI</span></div>
+<div style="position:absolute;left:606.96px;top:643.84px" class="cls_021"><span class="cls_021">I</span></div>
+<div style="position:absolute;left:193.68px;top:655.92px" class="cls_010"><span class="cls_010">W</span></div>
+<div style="position:absolute;left:205.92px;top:655.92px" class="cls_010"><span class="cls_010">EE VG avoiZErs nakhiq a61-</span></div>
+<div style="position:absolute;left:325.44px;top:655.92px" class="cls_010"><span class="cls_010">TO napdOupo npdaurto 610[0-</span></div>
+<div style="position:absolute;left:458.64px;top:655.20px" class="cls_010"><span class="cls_010">gratx6a</span></div>
+<div style="position:absolute;left:506.88px;top:655.20px" class="cls_010"><span class="cls_010">170pDuaiiacmq.</span></div>
+<div style="position:absolute;left:193.68px;top:667.44px" class="cls_010"><span class="cls_010">6eq µe ErMor)</span></div>
+<div style="position:absolute;left:258.48px;top:667.44px" class="cls_010"><span class="cls_010">> N61 61446-</span></div>
+<div style="position:absolute;left:326.16px;top:666.72px" class="cls_010"><span class="cls_010">vSiOc</span></div>
+<div style="position:absolute;left:359.28px;top:666.72px" class="cls_010"><span class="cls_010">ogi</span></div>
+<div style="position:absolute;left:387.36px;top:666.72px" class="cls_010"><span class="cls_010">r4, tivraprikkEirs</span></div>
+<div style="position:absolute;left:466.56px;top:666.72px" class="cls_010"><span class="cls_010">A.V6 ac nEaduoupz arc</span></div>
+<div style="position:absolute;left:606.96px;top:667.60px" class="cls_021"><span class="cls_021">p</span></div>
+<div style="position:absolute;left:193.68px;top:678.24px" class="cls_010"><span class="cls_010">yen. ATTO TO Koutrni VE rig rpcd-</span></div>
+<div style="position:absolute;left:326.16px;top:678.24px" class="cls_010"><span class="cls_010">TO Tov-s a lovq</span></div>
+<div style="position:absolute;left:397.44px;top:678.24px" class="cls_010"><span class="cls_010">ve</span></div>
+<div style="position:absolute;left:424.08px;top:674.52px" class="cls_010"><span class="cls_010">iaaf</span><span class="cls_008">R</span></div>
+<div style="position:absolute;left:458.64px;top:677.52px" class="cls_010"><span class="cls_010">losorrirK ricropaMq. ria via</span></div>
+<div style="position:absolute;left:606.96px;top:680.40px" class="cls_010"><span class="cls_010">eP</span></div>
+<div style="position:absolute;left:193.68px;top:689.04px" class="cls_010"><span class="cls_010">or2Q rtpooe6rme nAciata 6.1a-</span></div>
+<div style="position:absolute;left:326.16px;top:686.04px" class="cls_008"><span class="cls_008">va </span><span class="cls_010">EpyaejEOTE, np6rsm WI ETTIM-</span></div>
+<div style="position:absolute;left:457.92px;top:689.04px" class="cls_010"><span class="cls_010">-purl orrocOvre TQ etp6 napau-</span></div>
+<div style="position:absolute;left:193.68px;top:699.84px" class="cls_010"><span class="cls_010">)1/46yau, EVa EZI0011 Ei:AO1M axc-</span></div>
+<div style="position:absolute;left:326.16px;top:701.28px" class="cls_010"><span class="cls_010">EXTETrl PQM:1g is ciEN5ctc</span></div>
+<div style="position:absolute;left:458.64px;top:692.84px" class="cls_010"><span class="cls_010">cliaurr </span><span class="cls_033">K.16 </span><span class="cls_010">arotxerou Triq an-</span></div>
+<div style="position:absolute;left:606.24px;top:697.56px" class="cls_008"><span class="cls_008">n</span></div>
+<div style="position:absolute;left:193.68px;top:710.64px" class="cls_010"><span class="cls_010">aargre.riovF_A -ET131, 11110pEiTE</span></div>
+<div style="position:absolute;left:326.16px;top:710.64px" class="cls_010"><span class="cls_010">larso -nq Zita-rdE,mq. crca 6sEgi</span></div>
+<div style="position:absolute;left:458.64px;top:709.64px" class="cls_010"><span class="cls_010">othreAuq, apyLtiO </span><span class="cls_016">TO </span><span class="cls_010">eniAtveTs</span></div>
+<div style="position:absolute;left:193.68px;top:722.16px" class="cls_010"><span class="cls_010">va xpriattiatsculPtre pia ouM0-</span></div>
+<div style="position:absolute;left:326.16px;top:718.16px" class="cls_034"><span class="cls_034">Mc </span><span class="cls_010">npooptpq sn inktov CrT0I-</span></div>
+<div style="position:absolute;left:458.64px;top:722.16px" class="cls_010"><span class="cls_010">KOI </span><span class="cls_019">Crin </span><span class="cls_010">OUY6XELUONO</span></div>
+<div style="position:absolute;left:537.12px;top:722.16px" class="cls_010"><span class="cls_010">*</span></div>
+<div style="position:absolute;left:547.20px;top:722.16px" class="cls_010"><span class="cls_010">TE.ITIV</span></div>
+<div style="position:absolute;left:606.24px;top:722.88px" class="cls_010"><span class="cls_010">O4</span></div>
+<div style="position:absolute;left:193.68px;top:733.68px" class="cls_010"><span class="cls_010">yet</span></div>
+<div style="position:absolute;left:205.20px;top:733.68px" class="cls_010"><span class="cls_010">w</span></div>
+<div style="position:absolute;left:221.04px;top:732.96px" class="cls_010"><span class="cls_010">aypacpt&I 1y1   va Tito-</span></div>
+<div style="position:absolute;left:326.16px;top:732.96px" class="cls_010"><span class="cls_010">XdON, OTTWq I.JOUOLKT1 1401 141.Y06-</span></div>
+<div style="position:absolute;left:458.64px;top:732.96px" class="cls_010"><span class="cls_010">KUp-rtka ripoorippixi</span></div>
+<div style="position:absolute;left:537.84px;top:732.96px" class="cls_010"><span class="cls_010">a</span></div>
+<div style="position:absolute;left:547.20px;top:732.96px" class="cls_010"><span class="cls_010">ve ecK</span></div>
+<div style="position:absolute;left:193.68px;top:744.48px" class="cls_010"><span class="cls_010">EATE pta Icropia, rrpocetto-</span></div>
+<div style="position:absolute;left:326.16px;top:743.76px" class="cls_010"><span class="cls_010">avSq CIKOVE.q. and rn Maio</span></div>
+<div style="position:absolute;left:458.64px;top:743.76px" class="cls_010"><span class="cls_010">Kivrianq arc ogtd nig cleovpq</span></div>
+<div style="position:absolute;left:193.68px;top:755.28px" class="cls_010"><span class="cls_010">wag anA  Ta 46yla  McVsisTra,</span></div>
+<div style="position:absolute;left:326.16px;top:755.28px" class="cls_010"><span class="cls_010">00607'1, T1 TloPcludo171 kuloPEI</span></div>
+<div style="position:absolute;left:458.64px;top:754.56px" class="cls_010"><span class="cls_010">Kt TO t(aut.Irti ElpoogriKrt tirra-</span></div>
+<div style="position:absolute;left:606.24px;top:757.44px" class="cls_010"><span class="cls_010">XI</span></div>
+<div style="position:absolute;left:205.20px;top:766.08px" class="cls_010"><span class="cls_010">6A.Eq rig aFisiasc onopere</span></div>
+<div style="position:absolute;left:326.16px;top:766.08px" class="cls_010"><span class="cls_010">va '</span></div>
+<div style="position:absolute;left:338.40px;top:766.08px" class="cls_010"><span class="cls_010">O</span></div>
+<div style="position:absolute;left:347.76px;top:766.08px" class="cls_010"><span class="cls_010">m niso </span><span class="cls_032">0AI-10111</span></div>
+<div style="position:absolute;left:399.60px;top:766.08px" class="cls_032"><span class="cls_032">4</span></div>
+<div style="position:absolute;left:411.84px;top:766.08px" class="cls_010"><span class="cls_010">Mr1101:1</span></div>
+<div style="position:absolute;left:438.48px;top:765.36px" class="cls_010"><span class="cls_010">L•</span></div>
+<div style="position:absolute;left:458.64px;top:765.36px" class="cls_010"><span class="cls_010">pciTe Vci ngmao56>crsi</span></div>
+<div style="position:absolute;left:560.88px;top:765.36px" class="cls_010"><span class="cls_010">pl-</span></div>
+<div style="position:absolute;left:193.68px;top:777.60px" class="cls_010"><span class="cls_010">va stcia</span></div>
+<div style="position:absolute;left:221.04px;top:777.60px" class="cls_010"><span class="cls_010">0</span></div>
+<div style="position:absolute;left:230.40px;top:776.88px" class="cls_010"><span class="cls_010">yrts 14x1 96VT0 AUTO</span></div>
+<div style="position:absolute;left:325.44px;top:776.88px" class="cls_010"><span class="cls_010">TE eelii  I~ VC1 gXETC &Al likai0110</span></div>
+<div style="position:absolute;left:458.64px;top:776.04px" class="cls_008"><span class="cls_008">cmi</span></div>
+<div style="position:absolute;left:501.12px;top:776.88px" class="cls_010"><span class="cls_010">of Kobe atorg4b</span></div>
+<div style="position:absolute;left:605.52px;top:774.60px" class="cls_008"><span class="cls_008">rc</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:2406px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:1.92px;top:0.00px" class="cls_019"><span class="cls_019">▪</span></div>
+<div style="position:absolute;left:16.56px;top:111.12px" class="cls_036"><span class="cls_036">H EIKONDN </span><span class="cls_028"> & </span><span class="cls_036">11APOYIIAIEll</span></div>
+<div style="position:absolute;left:16.08px;top:149.92px" class="cls_017"><span class="cls_017">-</span></div>
+<div style="position:absolute;left:28.32px;top:149.92px" class="cls_017"><span class="cls_017">-</span></div>
+<div style="position:absolute;left:42.96px;top:127.16px" class="cls_037"><span class="cls_037">-</span></div>
+<div style="position:absolute;left:296.16px;top:134.36px" class="cls_037"><span class="cls_037">C</span></div>
+<div style="position:absolute;left:332.16px;top:155.12px" class="cls_014"><span class="cls_014">•</span></div>
+<div style="position:absolute;left:271.44px;top:166.76px" class="cls_038"><span class="cls_038">•</span></div>
+<div style="position:absolute;left:310.32px;top:167.24px" class="cls_038"><span class="cls_038">71.  .1.</span></div>
+<div style="position:absolute;left:316.80px;top:167.24px" class="cls_038"><span class="cls_038">/</span></div>
+<div style="position:absolute;left:318.96px;top:167.24px" class="cls_038"><span class="cls_038">.1.</span></div>
+<div style="position:absolute;left:321.84px;top:167.24px" class="cls_038"><span class="cls_038">■</span></div>
+<div style="position:absolute;left:323.52px;top:167.00px" class="cls_038"><span class="cls_038">.1</span></div>
+<div style="position:absolute;left:74.64px;top:176.96px" class="cls_014"><span class="cls_014">p■ial■.■.1-•••••■•■■•• ••••■•</span></div>
+<div style="position:absolute;left:80.16px;top:194.16px" class="cls_024"><span class="cls_024">141</span></div>
+<div style="position:absolute;left:416.16px;top:236.12px" class="cls_016"><span class="cls_016">•</span></div>
+<div style="position:absolute;left:433.44px;top:237.56px" class="cls_016"><span class="cls_016">It</span></div>
+<div style="position:absolute;left:406.56px;top:254.80px" class="cls_017"><span class="cls_017">•</span></div>
+<div style="position:absolute;left:408.72px;top:251.68px" class="cls_017"><span class="cls_017">1•.</span></div>
+<div style="position:absolute;left:411.60px;top:251.68px" class="cls_017"><span class="cls_017">■</span></div>
+<div style="position:absolute;left:417.36px;top:251.68px" class="cls_017"><span class="cls_017">1</span></div>
+<div style="position:absolute;left:418.80px;top:251.68px" class="cls_017"><span class="cls_017">■</span></div>
+<div style="position:absolute;left:17.04px;top:289.32px" class="cls_019"><span class="cls_019">Eigruiturt LIMOI Cfi</span><span class="cls_014">i</span><span class="cls_019">ty.E </span><span class="cls_039">ErvIIKEI </span><span class="cls_006">ppm, 4:11dTE wa Exaum</span></div>
+<div style="position:absolute;left:223.68px;top:293.84px" class="cls_039"><span class="cls_039">npoorgpEperoi  pia REyo.kry</span></div>
+<div style="position:absolute;left:315.12px;top:293.84px" class="cls_039"><span class="cls_039">p</span></div>
+<div style="position:absolute;left:321.60px;top:292.08px" class="cls_039"><span class="cls_039">laya giTIO </span><span class="cls_010">'OWN, </span><span class="cls_039">TrOpOUO</span></div>
+<div style="position:absolute;left:408.24px;top:294.08px" class="cls_039"><span class="cls_039">M</span></div>
+<div style="position:absolute;left:415.20px;top:293.84px" class="cls_039"><span class="cls_039">OLIAV, TO</span></div>
+<div style="position:absolute;left:1.68px;top:297.72px" class="cls_006"><span class="cls_006">OA* nal vd 11 x.elpi;ro-re. Rla ck.imaika. To 470po-ra</span></div>
+<div style="position:absolute;left:223.44px;top:297.48px" class="cls_039"><span class="cls_039">011011:1 </span><span class="cls_006">urropeirc Wel rtpappootie </span><span class="cls_039">OE 111001C Oraillk, </span><span class="cls_006">kcgtaplu-rb.</span></div>
+<div style="position:absolute;left:4.56px;top:306.60px" class="cls_014"><span class="cls_014">40 </span><span class="cls_006">cxauw</span></div>
+<div style="position:absolute;left:65.04px;top:306.36px" class="cls_006"><span class="cls_006">M.13.6.1 pa-mg ens EigPoePktThic. ITAEVP0</span></div>
+<div style="position:absolute;left:207.60px;top:266.08px" class="cls_031"><span class="cls_031">2</span></div>
+<div style="position:absolute;left:223.44px;top:305.64px" class="cls_006"><span class="cls_006">17n aola isellwavIai el bluiliitcripEc aloTottic 45i0wavElorw,</span></div>
+<div style="position:absolute;left:1.44px;top:315.72px" class="cls_006"><span class="cls_006">lincpOvota.</span></div>
+<div style="position:absolute;left:12.00px;top:484.20px" class="cls_006"><span class="cls_006">einonc,. nivoitc dgi Okavpappaue, irmaprhrt vg</span></div>
+<div style="position:absolute;left:225.60px;top:483.96px" class="cls_006"><span class="cls_006">litirroperrE Ira tinelwayire. Pouallol n RivouriLwn EIRava Tioo on</span></div>
+<div style="position:absolute;left:8.16px;top:493.32px" class="cls_006"><span class="cls_006">e erxrAloopmic </span><span class="cls_039">ROO El•O Cog </span><span class="cls_006">pagentroilf va </span><span class="cls_004">Fiwipaalt</span></div>
+<div style="position:absolute;left:225.60px;top:492.60px" class="cls_006"><span class="cls_006">nuKci </span><span class="cls_039">KOTO 7 ep, IrpuiloA.ii </span><span class="cls_006">i-rd iriopougicknc. Ernanc.</span></div>
+<div style="position:absolute;left:7.92px;top:502.20px" class="cls_006"><span class="cls_006">Lich 1r6faryloy-LV0 Trig TrapaucnoOriq,</span></div>
+<div style="position:absolute;left:207.36px;top:462.20px" class="cls_023"><span class="cls_023">4</span></div>
+<div style="position:absolute;left:225.36px;top:501.00px" class="cls_006"><span class="cls_006">Bluirieheviren Taavorpo crxohaupirw, </span><span class="cls_039">TO11:761OITTITTO OVTIREIVEVO</span></div>
+<div style="position:absolute;left:208.08px;top:514.88px" class="cls_039"><span class="cls_039">lig</span></div>
+<div style="position:absolute;left:215.04px;top:509.88px" class="cls_039"><span class="cls_039">•X. o blOICO{ ROTio OTTO TO </span><span class="cls_006">ti.toyo} </span><span class="cls_019">ROI </span><span class="cls_006">&LW </span><span class="cls_019">CIRooTIRO </span><span class="cls_006">oproorerra.</span></div>
+<div style="position:absolute;left:15.84px;top:541.80px" class="cls_006"><span class="cls_006">u) and rnv</span></div>
+<div style="position:absolute;left:76.32px;top:540.84px" class="cls_006"><span class="cls_006">papcpdq KENt.thv Aura viks.rea</span></div>
+<div style="position:absolute;left:208.80px;top:540.36px" class="cls_008"><span class="cls_008">Naypapp.a. </span><span class="cls_006">rurficrrE To ova:-</span></div>
+<div style="position:absolute;left:10.56px;top:552.60px" class="cls_006"><span class="cls_006">at Rio Maui</span></div>
+<div style="position:absolute;left:76.80px;top:552.36px" class="cls_006"><span class="cls_006">k.E. 711 130e11318413 TOU EPYakEilaU</span></div>
+<div style="position:absolute;left:208.56px;top:551.88px" class="cls_006"><span class="cls_006">amixo socombo om n&r.o</span></div>
+<div style="position:absolute;left:318.00px;top:552.12px" class="cls_008"><span class="cls_008">-</span></div>
+<div style="position:absolute;left:9.60px;top:563.88px" class="cls_006"><span class="cls_006">U Noetrouv</span></div>
+<div style="position:absolute;left:76.80px;top:563.40px" class="cls_006"><span class="cls_006">npeirUlla Kill UOIDCROF401:11arl, TO</span></div>
+<div style="position:absolute;left:209.04px;top:565.32px" class="cls_006"><span class="cls_006">pc</span></div>
+<div style="position:absolute;left:216.96px;top:562.68px" class="cls_006"><span class="cls_006">ic rig oaf5aq. 1 o vo WW1-</span></div>
+<div style="position:absolute;left:9.60px;top:574.44px" class="cls_006"><span class="cls_006">FTC VO</span></div>
+<div style="position:absolute;left:76.56px;top:574.20px" class="cls_006"><span class="cls_006">a.KovirNo IOU 0[101:04/</span></div>
+<div style="position:absolute;left:172.08px;top:574.92px" class="cls_006"><span class="cls_006">KETC11</span></div>
+<div style="position:absolute;left:209.04px;top:573.72px" class="cls_006"><span class="cls_006">ponoitraers avyKEreptptiin M-</span></div>
+<div style="position:absolute;left:23.76px;top:585.24px" class="cls_006"><span class="cls_006">napou.</span></div>
+<div style="position:absolute;left:76.32px;top:585.24px" class="cls_006"><span class="cls_006">OLIO ndow 1..&pac inq ad)Zac.</span></div>
+<div style="position:absolute;left:208.80px;top:584.76px" class="cls_006"><span class="cls_006">om 6e..Loubury ova' 6E,ova.</span></div>
+<div style="position:absolute;left:12.72px;top:596.52px" class="cls_006"><span class="cls_006">CherICICTE. Thy</span></div>
+<div style="position:absolute;left:76.80px;top:596.28px" class="cls_006"><span class="cls_006">Enal.kys-rd</span></div>
+<div style="position:absolute;left:131.52px;top:597.80px" class="cls_041"><span class="cls_041">VON01"1.0111010</span></div>
+<div style="position:absolute;left:222.96px;top:595.32px" class="cls_006"><span class="cls_006">rnouseover, ta-d va 49a-</span></div>
+<div style="position:absolute;left:9.60px;top:607.80px" class="cls_006"><span class="cls_006">otpondietre</span></div>
+<div style="position:absolute;left:76.56px;top:607.08px" class="cls_006"><span class="cls_006">Kai KU Tl.CFDtM to EIKOVIZiO</span></div>
+<div style="position:absolute;left:209.04px;top:606.60px" class="cls_006"><span class="cls_006">ward .AE,o,y.oq X. VI Y. OVIi-</span></div>
+<div style="position:absolute;left:7.20px;top:618.84px" class="cls_006"><span class="cls_006">own oa6,-</span></div>
+<div style="position:absolute;left:76.32px;top:618.36px" class="cls_006"><span class="cls_006">TO 41+. yia vo npoaNdETB 0T11</span></div>
+<div style="position:absolute;left:208.80px;top:618.12px" class="cls_006"><span class="cls_006">MOIXO)M 8EEj kOkttc. iQ</span></div>
+<div style="position:absolute;left:311.76px;top:617.88px" class="cls_006"><span class="cls_006">Eni-</span></div>
+<div style="position:absolute;left:76.80px;top:629.16px" class="cls_006"><span class="cls_006">MUM ILII nadoi-itrpoug TOU.</span></div>
+<div style="position:absolute;left:209.28px;top:629.16px" class="cls_006"><span class="cls_006">k6Y06v QatieTinlikcic</span><span class="cls_008">T1r3 S.</span></div>
+<div style="position:absolute;left:80.88px;top:640.44px" class="cls_006"><span class="cls_006">TO €1.1r, STIOAOVTOq Kara-</span></div>
+<div style="position:absolute;left:209.28px;top:639.96px" class="cls_006"><span class="cls_006">EnIME,TE</span></div>
+<div style="position:absolute;left:281.76px;top:639.72px" class="cls_006"><span class="cls_006">W</span></div>
+<div style="position:absolute;left:295.44px;top:639.48px" class="cls_006"><span class="cls_006">op6voro</span></div>
+<div style="position:absolute;left:10.08px;top:650.20px" class="cls_026"><span class="cls_026">MON</span></div>
+<div style="position:absolute;left:76.32px;top:651.00px" class="cls_006"><span class="cls_006">moan yepfaparoc OTO nawt.1</span></div>
+<div style="position:absolute;left:209.04px;top:650.76px" class="cls_006"><span class="cls_006">AVOI.ZTE TO 6movi8o Eraika-m</span></div>
+<div style="position:absolute;left:7.20px;top:660.00px" class="cls_006"><span class="cls_006">°alone </span><span class="cls_040">rn</span></div>
+<div style="position:absolute;left:77.04px;top:662.52px" class="cls_006"><span class="cls_006">p6poqTOU napaeC.Fpou KUL TO</span></div>
+<div style="position:absolute;left:209.52px;top:662.28px" class="cls_006"><span class="cls_006">rrotoxn 6thoptiocov Kal 61a-</span></div>
+<div style="position:absolute;left:12.00px;top:674.04px" class="cls_024"><span class="cls_024">41 </span><span class="cls_006">oB Eva</span></div>
+<div style="position:absolute;left:76.80px;top:673.56px" class="cls_006"><span class="cls_006">Z.111418k4.11176 npdaruno. mopeirE</span></div>
+<div style="position:absolute;left:209.28px;top:672.84px" class="cls_006"><span class="cls_006">MN 11E10 ItIOVIIIKI 111Q Titik</span></div>
+<div style="position:absolute;left:26.16px;top:684.84px" class="cls_006"><span class="cls_006">KCWEIE</span></div>
+<div style="position:absolute;left:76.56px;top:684.12px" class="cls_006"><span class="cls_006">vc:inpacietrer6 -rr1 idoccor(ain-</span></div>
+<div style="position:absolute;left:209.04px;top:683.88px" class="cls_006"><span class="cls_006">clog, Iroug nivox4q, .ht4tov</span></div>
+<div style="position:absolute;left:30.96px;top:695.40px" class="cls_006"><span class="cls_006">poprpa,</span></div>
+<div style="position:absolute;left:77.04px;top:695.16px" class="cls_006"><span class="cls_006">ori</span></div>
+<div style="position:absolute;left:100.80px;top:695.16px" class="cls_006"><span class="cls_006">g..va KkaK 010 Kai.</span></div>
+<div style="position:absolute;left:209.52px;top:694.68px" class="cls_006"><span class="cls_006">undpiovv p.E4:4K6 aKotin xona.</span></div>
+<div style="position:absolute;left:10.56px;top:706.68px" class="cls_006"><span class="cls_006">impure va</span></div>
+<div style="position:absolute;left:85.44px;top:706.44px" class="cls_006"><span class="cls_006">Arta TO nt.p4PdMav mu rpa-</span></div>
+<div style="position:absolute;left:209.28px;top:705.24px" class="cls_021"><span class="cls_021">yao </span><span class="cls_006">egyakEia rip riepoZcypia.</span></div>
+<div style="position:absolute;left:7.44px;top:717.48px" class="cls_006"><span class="cls_006">8uotiq od no-</span></div>
+<div style="position:absolute;left:77.28px;top:717.48px" class="cls_006"><span class="cls_006">Xou 56V XEL:TIOLIV OL</span></div>
+<div style="position:absolute;left:209.04px;top:717.00px" class="cls_006"><span class="cls_006">Qv xiodiarx-roi vo Enovailkai.J06-</span></div>
+<div style="position:absolute;left:8.64px;top:730.44px" class="cls_006"><span class="cls_006">) MVO.</span></div>
+<div style="position:absolute;left:77.04px;top:732.00px" class="cls_024"><span class="cls_024">K</span></div>
+<div style="position:absolute;left:92.16px;top:728.76px" class="cls_006"><span class="cls_006">Nertmok:ntoaq, Av 0(ETS</span></div>
+<div style="position:absolute;left:208.80px;top:727.80px" class="cls_006"><span class="cls_006">veTE TIC bdq haxic laud No-</span></div>
+<div style="position:absolute;left:12.00px;top:740.04px" class="cls_008"><span class="cls_008">ircoi </span><span class="cls_006">aptepoi</span></div>
+<div style="position:absolute;left:112.80px;top:739.56px" class="cls_006"><span class="cls_006">Ofti81.16V, yL0 va rou</span></div>
+<div style="position:absolute;left:209.28px;top:738.60px" class="cls_006"><span class="cls_006">cm'ipora. avoitTE i11 .kkrra ET11-</span></div>
+<div style="position:absolute;left:18.24px;top:751.08px" class="cls_006"><span class="cls_006">KOKKLVO</span></div>
+<div style="position:absolute;left:77.52px;top:750.60px" class="cls_006"><span class="cls_006">aepoion E. £1114E,T£ &Al Kw-a.</span></div>
+<div style="position:absolute;left:209.28px;top:749.64px" class="cls_006"><span class="cls_006">40y634i We 661KALK. AnT MEI:</span></div>
+<div style="position:absolute;left:27.36px;top:762.12px" class="cls_006"><span class="cls_006">6IDGV</span></div>
+<div style="position:absolute;left:77.28px;top:765.40px" class="cls_019"><span class="cls_019">141 Ka</span></div>
+<div style="position:absolute;left:94.80px;top:765.64px" class="cls_019"><span class="cls_019">%</span></div>
+<div style="position:absolute;left:102.48px;top:761.64px" class="cls_019"><span class="cls_019">) and 11j</span><span class="cls_006">or*KO1 nanl-</span></div>
+<div style="position:absolute;left:209.04px;top:760.92px" class="cls_006"><span class="cls_006">°dyne Karoo Aden 1110.11 </span><span class="cls_008">6xere.</span></div>
+<div style="position:absolute;left:12.24px;top:773.16px" class="cls_006"><span class="cls_006">apEirg va </span><span class="cls_004">Ka-</span></div>
+<div style="position:absolute;left:77.04px;top:772.44px" class="cls_006"><span class="cls_006">crm </span><span class="cls_042">TO Eocovi510 E. FiCt VQpao-</span></div>
+<div style="position:absolute;left:209.52px;top:774.12px" class="cls_006"><span class="cls_006">Or) YPOW-1</span></div>
+<div style="position:absolute;left:310.80px;top:781.00px" class="cls_026"><span class="cls_026">1E1</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:3208px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:72.00px;top:30.84px" class="cls_027"><span class="cls_027">HOW   TO</span></div>
+<div style="position:absolute;left:239.28px;top:30.36px" class="cls_027"><span class="cls_027">SOFTWARE   GUIDE</span></div>
+<div style="position:absolute;left:55.68px;top:102.84px" class="cls_027"><span class="cls_027">V</span></div>
+<div style="position:absolute;left:100.32px;top:102.84px" class="cls_027"><span class="cls_027">EE AUDIO EDITOR 2012</span></div>
+<div style="position:absolute;left:56.16px;top:153.24px" class="cls_027"><span class="cls_027">IT</span></div>
+<div style="position:absolute;left:92.64px;top:153.48px" class="cls_027"><span class="cls_027">O</span></div>
+<div style="position:absolute;left:141.84px;top:153.72px" class="cls_027"><span class="cls_027">YT</span></div>
+<div style="position:absolute;left:202.80px;top:153.96px" class="cls_027"><span class="cls_027">O</span></div>
+<div style="position:absolute;left:237.60px;top:154.20px" class="cls_027"><span class="cls_027">Y</span></div>
+<div style="position:absolute;left:269.28px;top:154.20px" class="cls_027"><span class="cls_027">M</span></div>
+<div style="position:absolute;left:330.72px;top:154.20px" class="cls_027"><span class="cls_027">I</span></div>
+<div style="position:absolute;left:356.16px;top:154.20px" class="cls_027"><span class="cls_027">O</span></div>
+<div style="position:absolute;left:405.12px;top:153.96px" class="cls_027"><span class="cls_027">H</span></div>
+<div style="position:absolute;left:438.72px;top:153.96px" class="cls_027"><span class="cls_027">X</span></div>
+<div style="position:absolute;left:479.04px;top:153.96px" class="cls_027"><span class="cls_027">O</span></div>
+<div style="position:absolute;left:514.56px;top:153.96px" class="cls_027"><span class="cls_027">Y</span></div>
+<div style="position:absolute;left:60.96px;top:201.48px" class="cls_027"><span class="cls_027">T</span></div>
+<div style="position:absolute;left:92.40px;top:201.48px" class="cls_027"><span class="cls_027">O</span></div>
+<div style="position:absolute;left:128.16px;top:201.72px" class="cls_027"><span class="cls_027">Y</span></div>
+<div style="position:absolute;left:171.36px;top:201.72px" class="cls_027"><span class="cls_027">A</span></div>
+<div style="position:absolute;left:206.64px;top:201.72px" class="cls_027"><span class="cls_027">llA_</span></div>
+<div style="position:absolute;left:280.32px;top:201.72px" class="cls_027"><span class="cls_027">O</span></div>
+<div style="position:absolute;left:315.36px;top:201.72px" class="cls_027"><span class="cls_027">Y</span></div>
+<div style="position:absolute;left:359.28px;top:201.72px" class="cls_027"><span class="cls_027">X</span></div>
+<div style="position:absolute;left:394.56px;top:201.72px" class="cls_027"><span class="cls_027">P</span></div>
+<div style="position:absolute;left:424.08px;top:201.72px" class="cls_027"><span class="cls_027">H</span></div>
+<div style="position:absolute;left:462.96px;top:201.72px" class="cls_027"><span class="cls_027">YT</span></div>
+<div style="position:absolute;left:522.00px;top:201.96px" class="cls_027"><span class="cls_027">H</span></div>
+<div style="position:absolute;left:66.00px;top:244.68px" class="cls_027"><span class="cls_027">a</span></div>
+<div style="position:absolute;left:100.08px;top:244.68px" class="cls_027"><span class="cls_027">i</span></div>
+<div style="position:absolute;left:107.76px;top:244.68px" class="cls_027"><span class="cls_027">a</span></div>
+<div style="position:absolute;left:139.68px;top:244.68px" class="cls_027"><span class="cls_027">•</span></div>
+<div style="position:absolute;left:60.00px;top:300.44px" class="cls_043"><span class="cls_043">01 ruplauftepot</span></div>
+<div style="position:absolute;left:58.08px;top:315.08px" class="cls_043"><span class="cls_043">Apijo-rEc exovv</span></div>
+<div style="position:absolute;left:608.88px;top:317.24px" class="cls_016"><span class="cls_016">1</span></div>
+<div style="position:absolute;left:59.28px;top:329.72px" class="cls_043"><span class="cls_043">avarai ion) Rat</span></div>
+<div style="position:absolute;left:59.04px;top:343.64px" class="cls_043"><span class="cls_043">nzpio-raoiroc6 anti its</span></div>
+<div style="position:absolute;left:59.52px;top:358.04px" class="cls_043"><span class="cls_043">vn7pEcriec winotov</span></div>
+<div style="position:absolute;left:59.28px;top:373.16px" class="cls_043"><span class="cls_043">anAoti</span></div>
+<div style="position:absolute;left:112.32px;top:373.40px" class="cls_043"><span class="cls_043">I xplial,</span></div>
+<div style="position:absolute;left:59.04px;top:388.28px" class="cls_043"><span class="cls_043">ape-sit tigavoti xitt</span></div>
+<div style="position:absolute;left:59.52px;top:402.68px" class="cls_043"><span class="cls_043">oupeav</span></div>
+<div style="position:absolute;left:59.28px;top:416.60px" class="cls_043"><span class="cls_043">nporiocipparo(</span></div>
+<div style="position:absolute;left:59.04px;top:431.48px" class="cls_043"><span class="cls_043">En4epraefac trov.</span></div>
+<div style="position:absolute;left:60.24px;top:446.60px" class="cls_043"><span class="cls_043">To Free Audio</span></div>
+<div style="position:absolute;left:59.28px;top:460.28px" class="cls_043"><span class="cls_043">Editor exc.' </span><span class="cls_044">aura </span><span class="cls_043">to</span></div>
+<div style="position:absolute;left:58.08px;top:475.16px" class="cls_043"><span class="cls_043">Awpax-rihoiOliNd </span><span class="cls_044">Kat</span></div>
+<div style="position:absolute;left:112.08px;top:490.28px" class="cls_043"><span class="cls_043">opopyo,</span></div>
+<div style="position:absolute;left:60.00px;top:504.68px" class="cls_043"><span class="cls_043">aCyxpovo</span></div>
+<div style="position:absolute;left:59.76px;top:519.08px" class="cls_043"><span class="cls_043">nepifialov.</span></div>
+<div style="position:absolute;left:606.96px;top:518.84px" class="cls_005"><span class="cls_005">I</span></div>
+<div style="position:absolute;left:605.76px;top:549.04px" class="cls_044"><span class="cls_044">•</span></div>
+<div style="position:absolute;left:227.52px;top:557.16px" class="cls_006"><span class="cls_006">V KOL TO </span><span class="cls_016">v..ipt:rrcau</span></div>
+<div style="position:absolute;left:324.00px;top:559.16px" class="cls_016"><span class="cls_016">rrpoypappo-rog ova srori?</span></div>
+<div style="position:absolute;left:418.32px;top:559.16px" class="cls_016"><span class="cls_016">&</span></div>
+<div style="position:absolute;left:429.12px;top:559.16px" class="cls_016"><span class="cls_016">v</span></div>
+<div style="position:absolute;left:455.76px;top:556.68px" class="cls_006"><span class="cls_006">ETTIMME   trtIOKE111 E.L0a0U</span></div>
+<div style="position:absolute;left:78.24px;top:561.04px" class="cls_003"><span class="cls_003">ME MIA MATIA</span></div>
+<div style="position:absolute;left:227.52px;top:570.20px" class="cls_016"><span class="cls_016">xpriotponolouonvo</span></div>
+<div style="position:absolute;left:324.72px;top:569.96px" class="cls_016"><span class="cls_016">rrapdOupo WE cnaoyec yia</span></div>
+<div style="position:absolute;left:455.76px;top:569.72px" class="cls_016"><span class="cls_016">(n.x._ ilmoitqcovo, line in), vitth</span></div>
+<div style="position:absolute;left:227.28px;top:581.00px" class="cls_016"><span class="cls_016">44.opc6v rifx5ypo</span></div>
+<div style="position:absolute;left:288.48px;top:581.00px" class="cls_016"><span class="cls_016">w</span></div>
+<div style="position:absolute;left:299.28px;top:581.00px" class="cls_016"><span class="cls_016">a</span></div>
+<div style="position:absolute;left:340.08px;top:580.76px" class="cls_016"><span class="cls_016">xionotponototipcvcc wya-</span></div>
+<div style="position:absolute;left:455.52px;top:578.76px" class="cls_016"><span class="cls_016">ALE </span><span class="cls_006">TO </span><span class="cls_016">Timer optC,ETE xpovoKe-</span></div>
+<div style="position:absolute;left:67.20px;top:586.68px" class="cls_016"><span class="cls_016">AfMMTOYPAENOF XPON</span><span class="cls_008">OT</span></div>
+<div style="position:absolute;left:227.76px;top:592.04px" class="cls_016"><span class="cls_016">crigemodaq fixou</span></div>
+<div style="position:absolute;left:324.24px;top:591.80px" class="cls_016"><span class="cls_016">oisq, TIA netaloctOicacq ivointR.</span></div>
+<div style="position:absolute;left:455.28px;top:591.56px" class="cls_016"><span class="cls_016">Elkoltiorlarl, tl onoie Epdvd. </span><span class="cls_024">FATE</span></div>
+<div style="position:absolute;left:67.68px;top:597.48px" class="cls_006"><span class="cls_006">15 kErtla</span></div>
+<div style="position:absolute;left:193.68px;top:547.80px" class="cls_047"><span class="cls_047">A</span></div>
+<div style="position:absolute;left:227.52px;top:601.32px" class="cls_006"><span class="cls_006">EMU TO </span><span class="cls_016">Audacity. Clad</span></div>
+<div style="position:absolute;left:324.72px;top:602.84px" class="cls_016"><span class="cls_016">mita nou Oa Kdrvetc, Oa beat</span></div>
+<div style="position:absolute;left:455.76px;top:602.60px" class="cls_016"><span class="cls_016">auropa-ra Eke. XELiXliciVrITO. H</span></div>
+<div style="position:absolute;left:67.44px;top:608.04px" class="cls_045"><span class="cls_045">trim </span><span class="cls_016">FILO AYIKONIA1</span></div>
+<div style="position:absolute;left:193.44px;top:614.84px" class="cls_016"><span class="cls_016">Ecv ario-reMf nw [Am snikayi)</span></div>
+<div style="position:absolute;left:324.48px;top:614.36px" class="cls_016"><span class="cls_016">va To otheicreire</span></div>
+<div style="position:absolute;left:383.52px;top:612.88px" class="cls_016"><span class="cls_016">1O era rietre </span><span class="cls_021">OTa</span></div>
+<div style="position:absolute;left:455.76px;top:612.12px" class="cls_016"><span class="cls_016">Load CD, </span><span class="cls_008">TIN KapTacq </span><span class="cls_016">Home,</span></div>
+<div style="position:absolute;left:604.56px;top:608.12px" class="cls_005"><span class="cls_005">L</span></div>
+<div style="position:absolute;left:89.04px;top:629.24px" class="cls_016"><span class="cls_016">■</span></div>
+<div style="position:absolute;left:192.72px;top:625.88px" class="cls_016"><span class="cls_016">To Free Audio 'Editor e</span></div>
+<div style="position:absolute;left:276.24px;top:625.88px" class="cls_016"><span class="cls_016">x</span></div>
+<div style="position:absolute;left:289.20px;top:625.88px" class="cls_016"><span class="cls_016">no.ki:i</span></div>
+<div style="position:absolute;left:347.52px;top:625.64px" class="cls_016"><span class="cls_016">ruEpi12410kov.</span></div>
+<div style="position:absolute;left:455.52px;top:625.16px" class="cls_016"><span class="cls_016">kCV 5oLlikEuEt Grrn iNidocav</span></div>
+<div style="position:absolute;left:193.20px;top:636.44px" class="cls_016"><span class="cls_016">via arywovo napiOOMov. ap-</span></div>
+<div style="position:absolute;left:332.88px;top:635.96px" class="cls_016"><span class="cls_016">Ault bgi.ciTio nd4,1) pOoc</span></div>
+<div style="position:absolute;left:456.00px;top:635.96px" class="cls_016"><span class="cls_016">Eckan TO trzuurii. Import from</span></div>
+<div style="position:absolute;left:604.32px;top:633.72px" class="cls_008"><span class="cls_008">t</span></div>
+<div style="position:absolute;left:67.92px;top:641.24px" class="cls_009"><span class="cls_009">dev </span><span class="cls_016">atitimnfirituiavirrevq. yviikciq</span></div>
+<div style="position:absolute;left:192.96px;top:647.72px" class="cls_016"><span class="cls_016">Kat; buicadirrircq znekcpya-</span></div>
+<div style="position:absolute;left:339.84px;top:645.00px" class="cls_016"><span class="cls_016">irrtrbon eta </span><span class="cls_006">KlapT644. </span><span class="cls_024">aV</span></div>
+<div style="position:absolute;left:455.76px;top:645.72px" class="cls_016"><span class="cls_016">video, xpriclipclitt yin </span><span class="cls_006">Pm:Vo-</span></div>
+<div style="position:absolute;left:193.44px;top:656.28px" class="cls_016"><span class="cls_016">°fag egpv WI VO KcAOLIAL </span><span class="cls_006">Tip</span></div>
+<div style="position:absolute;left:324.48px;top:658.04px" class="cls_016"><span class="cls_016">opturcpd unapktt Pict KdOcri</span></div>
+<div style="position:absolute;left:456.24px;top:655.80px" class="cls_006"><span class="cls_006">n </span><span class="cls_016">tq </span><span class="cls_006">3 fTE0 KOL (VDU, Aq)01)</span></div>
+<div style="position:absolute;left:603.84px;top:658.04px" class="cls_016"><span class="cls_016">6</span></div>
+<div style="position:absolute;left:67.44px;top:665.72px" class="cls_016"><span class="cls_016">IT</span></div>
+<div style="position:absolute;left:76.56px;top:665.24px" class="cls_016"><span class="cls_016">XPEIAZEITE</span></div>
+<div style="position:absolute;left:193.20px;top:669.56px" class="cls_016"><span class="cls_016">orpcurrrjoEK Tou ithK.00 XpnoTtl</span></div>
+<div style="position:absolute;left:342.48px;top:667.32px" class="cls_016"><span class="cls_016">613 pE opt. ytia-iov to. </span><span class="cls_006">TO.</span></div>
+<div style="position:absolute;left:455.28px;top:668.84px" class="cls_016"><span class="cls_016">giopubacts  v0 ry nEpi.00</span></div>
+<div style="position:absolute;left:548.40px;top:669.08px" class="cls_016"><span class="cls_016">tfixi</span></div>
+<div style="position:absolute;left:68.64px;top:676.28px" class="cls_020"><span class="cls_020">4 </span><span class="cls_016">To Free itodlo Edior 2012.9a</span></div>
+<div style="position:absolute;left:193.20px;top:680.84px" class="cls_016"><span class="cls_016">Kai xopagrriptartKa' .6.1-Koq n</span></div>
+<div style="position:absolute;left:324.96px;top:678.36px" class="cls_006"><span class="cls_006">EiiVOWL.IgVa. OE.. </span><span class="cls_016">op65Eq. FLO va</span></div>
+<div style="position:absolute;left:456.00px;top:679.88px" class="cls_016"><span class="cls_016">OpX6ci.. pr open   va Tin prgit-</span></div>
+<div style="position:absolute;left:74.88px;top:685.16px" class="cls_016"><span class="cls_016">xo 006iir  ism oUVuorl •.FOCUSd</span></div>
+<div style="position:absolute;left:74.88px;top:693.32px" class="cls_016"><span class="cls_016">Tau DVD</span></div>
+<div style="position:absolute;left:193.68px;top:691.40px" class="cls_016"><span class="cls_016">rixoypoonan Koi is Ka-r6134opa</span></div>
+<div style="position:absolute;left:324.72px;top:691.40px" class="cls_016"><span class="cls_016">Kfr.rere rixOypdicprion, fiaird-m</span></div>
+<div style="position:absolute;left:455.76px;top:691.16px" class="cls_016"><span class="cls_016">Totqicre aE I1</span></div>
+<div style="position:absolute;left:510.96px;top:689.40px" class="cls_016"><span class="cls_016">10 </span><span class="cls_006">TI:1170 CipIXEkLIV</span></div>
+<div style="position:absolute;left:193.44px;top:702.44px" class="cls_016"><span class="cls_016">and To YouTube. To nod:</span></div>
+<div style="position:absolute;left:284.88px;top:702.44px" class="cls_016"><span class="cls_016">y</span></div>
+<div style="position:absolute;left:295.68px;top:702.44px" class="cls_016"><span class="cls_016">aw</span></div>
+<div style="position:absolute;left:324.48px;top:702.20px" class="cls_016"><span class="cls_016">craw Kaplan Home SCI New</span></div>
+<div style="position:absolute;left:455.52px;top:699.72px" class="cls_016"><span class="cls_016">f3ivrco, </span><span class="cls_006">OE OpXEIO KIT elAkihil</span></div>
+<div style="position:absolute;left:58.80px;top:710.60px" class="cls_046"><span class="cls_046">rimm■•••+•■••-</span></div>
+<div style="position:absolute;left:175.92px;top:711.32px" class="cls_046"><span class="cls_046">1</span></div>
+<div style="position:absolute;left:193.92px;top:713.72px" class="cls_016"><span class="cls_016">pa civai atopcdrw tio5oun tii.ino-</span></div>
+<div style="position:absolute;left:325.20px;top:713.00px" class="cls_016"><span class="cls_016">Record KO cm EVGT pirspo nalp6-</span></div>
+<div style="position:absolute;left:455.28px;top:710.76px" class="cls_006"><span class="cls_006">'LO i5idtryopcc OLJOIS.Ek*f1 OE.</span></div>
+<div style="position:absolute;left:193.92px;top:726.92px" class="cls_016"><span class="cls_016">Pt*</span></div>
+<div style="position:absolute;left:202.32px;top:726.92px" class="cls_016"><span class="cls_016">*</span></div>
+<div style="position:absolute;left:216.00px;top:725.96px" class="cls_016"><span class="cls_016">etlx1PPeneeig.</span></div>
+<div style="position:absolute;left:324.96px;top:724.52px" class="cls_016"><span class="cls_016">Oupo</span></div>
+<div style="position:absolute;left:384.72px;top:722.04px" class="cls_016"><span class="cls_016">yovaq:lednimi)</span><span class="cls_008">Irl</span></div>
+<div style="position:absolute;left:456.00px;top:725.96px" class="cls_016"><span class="cls_016">09Xcia 4)</span></div>
+<div style="position:absolute;left:490.56px;top:725.96px" class="cls_016"><span class="cls_016">M</span></div>
+<div style="position:absolute;left:602.88px;top:724.28px" class="cls_009"><span class="cls_009">K</span></div>
+<div style="position:absolute;left:324.72px;top:733.56px" class="cls_006"><span class="cls_006">OTEpECKTKOVIO &WTICO KOL</span></div>
+<div style="position:absolute;left:464.40px;top:732.84px" class="cls_008"><span class="cls_008">M </span><span class="cls_016">To Koupni Get </span><span class="cls_006">rrom</span></div>
+<div style="position:absolute;left:194.16px;top:738.84px" class="cls_045"><span class="cls_045">nEPIDAAAON </span><span class="cls_006">KAI</span></div>
+<div style="position:absolute;left:325.20px;top:746.84px" class="cls_016"><span class="cls_016">pruilp6 i7ictypiorrooVILIJi% </span><span class="cls_009">a &a</span></div>
+<div style="position:absolute;left:455.52px;top:746.36px" class="cls_016"><span class="cls_016">YouTube, tom c.136Cpc $ivrto</span></div>
+<div style="position:absolute;left:601.68px;top:746.60px" class="cls_016"><span class="cls_016">-r</span></div>
+<div style="position:absolute;left:193.20px;top:755.64px" class="cls_006"><span class="cls_006">AEITOYpriu</span></div>
+<div style="position:absolute;left:324.24px;top:756.16px" class="cls_009"><span class="cls_009">vto napOeupa,</span><span class="cls_016">axi.v6T6 Trig </span><span class="cls_044">ey-</span></div>
+<div style="position:absolute;left:456.00px;top:755.40px" class="cls_016"><span class="cls_016">arta </span><span class="cls_006">TO </span><span class="cls_016">YouTube. </span><span class="cls_009"> TO </span><span class="cls_016">napcku-</span></div>
+<div style="position:absolute;left:202.32px;top:768.44px" class="cls_016"><span class="cls_016">€8Kivoy.d-mq, p.iipavir,poi Ha-</span></div>
+<div style="position:absolute;left:324.72px;top:767.92px" class="cls_044"><span class="cls_044">yp</span></div>
+<div style="position:absolute;left:346.56px;top:767.92px" class="cls_044"><span class="cls_044">2 Kcal </span><span class="cls_016">Kiive-rs puelpfortc.</span></div>
+<div style="position:absolute;left:455.76px;top:765.96px" class="cls_016"><span class="cls_016">po </span><span class="cls_006">T1OU avoryet ETTIAiyerE TO KO-</span></div>
+<div style="position:absolute;left:193.68px;top:780.20px" class="cls_016"><span class="cls_016">ft) OTTO TO 11.epti3e</span></div>
+<div style="position:absolute;left:258.24px;top:780.20px" class="cls_016"><span class="cls_016">M</span></div>
+<div style="position:absolute;left:269.04px;top:777.96px" class="cls_016"><span class="cls_016">ov </span><span class="cls_006">TOL]</span></div>
+<div style="position:absolute;left:324.72px;top:779.48px" class="cls_041"><span class="cls_041">Meta </span><span class="cls_016">Kaupni Windows Mixer</span></div>
+<div style="position:absolute;left:455.76px;top:777.24px" class="cls_006"><span class="cls_006">TE:JN10µo Tj 1T </span><span class="cls_016">percn-ponfi apxci-</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:4010px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:246.24px;top:128.80px" class="cls_044"><span class="cls_044">IN</span><span class="cls_018">• • • </span><span class="cls_019">4</span></div>
+<div style="position:absolute;left:313.20px;top:131.36px" class="cls_018"><span class="cls_018">YLIm.• •1+.•</span></div>
+<div style="position:absolute;left:246.24px;top:138.56px" class="cls_018"><span class="cls_018">•■</span></div>
+<div style="position:absolute;left:247.92px;top:169.44px" class="cls_024"><span class="cls_024">'11;.;;;;;;</span></div>
+<div style="position:absolute;left:249.60px;top:177.48px" class="cls_020"><span class="cls_020">• '1■.</span></div>
+<div style="position:absolute;left:269.04px;top:177.24px" class="cls_020"><span class="cls_020">1</span></div>
+<div style="position:absolute;left:249.12px;top:178.32px" class="cls_040"><span class="cls_040">i</span><span class="cls_020"><sup>fted■■•</sup></span></div>
+<div style="position:absolute;left:362.40px;top:183.00px" class="cls_007"><span class="cls_007">4</span></div>
+<div style="position:absolute;left:373.44px;top:183.00px" class="cls_007"><span class="cls_007">1</span></div>
+<div style="position:absolute;left:377.04px;top:183.00px" class="cls_007"><span class="cls_007">1</span></div>
+<div style="position:absolute;left:381.60px;top:183.00px" class="cls_007"><span class="cls_007">1</span></div>
+<div style="position:absolute;left:386.16px;top:183.00px" class="cls_007"><span class="cls_007">4</span></div>
+<div style="position:absolute;left:395.04px;top:183.00px" class="cls_007"><span class="cls_007">0</span></div>
+<div style="position:absolute;left:406.56px;top:183.00px" class="cls_007"><span class="cls_007">1</span></div>
+<div style="position:absolute;left:408.48px;top:183.00px" class="cls_007"><span class="cls_007">1</span></div>
+<div style="position:absolute;left:413.04px;top:183.00px" class="cls_007"><span class="cls_007">1</span></div>
+<div style="position:absolute;left:417.84px;top:183.00px" class="cls_007"><span class="cls_007">1</span></div>
+<div style="position:absolute;left:422.16px;top:183.00px" class="cls_007"><span class="cls_007">1</span></div>
+<div style="position:absolute;left:426.00px;top:183.00px" class="cls_007"><span class="cls_007">M</span></div>
+<div style="position:absolute;left:444.72px;top:183.00px" class="cls_007"><span class="cls_007">I</span></div>
+<div style="position:absolute;left:449.28px;top:183.00px" class="cls_007"><span class="cls_007">N</span></div>
+<div style="position:absolute;left:458.16px;top:183.00px" class="cls_007"><span class="cls_007">O</span></div>
+<div style="position:absolute;left:367.68px;top:198.12px" class="cls_007"><span class="cls_007">1</span></div>
+<div style="position:absolute;left:372.24px;top:197.88px" class="cls_007"><span class="cls_007">,</span></div>
+<div style="position:absolute;left:387.12px;top:197.64px" class="cls_007"><span class="cls_007">7</span></div>
+<div style="position:absolute;left:419.76px;top:200.52px" class="cls_020"><span class="cls_020">1.</span></div>
+<div style="position:absolute;left:419.28px;top:190.92px" class="cls_006"><span class="cls_006">ill  CA</span></div>
+<div style="position:absolute;left:435.60px;top:200.28px" class="cls_020"><span class="cls_020">71mr</span></div>
+<div style="position:absolute;left:453.60px;top:200.52px" class="cls_020"><span class="cls_020">“Wv</span></div>
+<div style="position:absolute;left:329.04px;top:227.64px" class="cls_048"><span class="cls_048">"••■</span></div>
+<div style="position:absolute;left:332.40px;top:233.88px" class="cls_048"><span class="cls_048">N</span></div>
+<div style="position:absolute;left:333.60px;top:234.36px" class="cls_048"><span class="cls_048">r</span></div>
+<div style="position:absolute;left:340.80px;top:233.88px" class="cls_048"><span class="cls_048">j</span></div>
+<div style="position:absolute;left:341.76px;top:233.88px" class="cls_048"><span class="cls_048">i</span></div>
+<div style="position:absolute;left:348.24px;top:234.12px" class="cls_048"><span class="cls_048">lt, gag, ,11.</span></div>
+<div style="position:absolute;left:374.64px;top:234.36px" class="cls_048"><span class="cls_048">}</span></div>
+<div style="position:absolute;left:387.60px;top:234.60px" class="cls_048"><span class="cls_048">/■••••••■•••</span></div>
+<div style="position:absolute;left:28.08px;top:289.84px" class="cls_042"><span class="cls_042">ruprypinprio"ric ere barAa To nialtrur</span></div>
+<div style="position:absolute;left:250.56px;top:290.56px" class="cls_042"><span class="cls_042">tarAtyevrac import from Vida% tXxit will Naomi ooh evav</span></div>
+<div style="position:absolute;left:23.52px;top:298.72px" class="cls_042"><span class="cls_042">ypapp011elpell 711c. rrou crirerytr to </span><span class="cls_019">linuimi </span><span class="cls_042">Timer</span></div>
+<div style="position:absolute;left:251.04px;top:298.72px" class="cls_042"><span class="cls_042">,a1 pq pt-rerpen.te apxtuov givrto, Mneptirt vo taikt(trz via ra</span></div>
+<div style="position:absolute;left:19.44px;top:307.12px" class="cls_042"><span class="cls_042">18E.</span></div>
+<div style="position:absolute;left:41.04px;top:307.12px" class="cls_042"><span class="cls_042">utrupril </span><span class="cls_019">ViiIIICIOVOSMinor </span><span class="cls_042">teriktytirt rrly TIpocArucen</span></div>
+<div style="position:absolute;left:236.64px;top:283.84px" class="cls_031"><span class="cls_031">2</span></div>
+<div style="position:absolute;left:250.56px;top:307.84px" class="cls_042"><span class="cls_042">OnorrAtupe teroperra ut 9 wag aextriav Orme, ri pUirce</span></div>
+<div style="position:absolute;left:24.72px;top:315.52px" class="cls_042"><span class="cls_042">, piepoatorol Km pm la Recording without silence, </span><span class="cls_019">r1</span></div>
+<div style="position:absolute;left:235.68px;top:316.24px" class="cls_042"><span class="cls_042">ecrrtAiiriAti yre 8 ti84 cruaktatinr, RP </span><span class="cls_007">rili</span></div>
+<div style="position:absolute;left:373.92px;top:322.92px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:378.96px;top:322.92px" class="cls_007"><span class="cls_007">q,</span></div>
+<div style="position:absolute;left:386.88px;top:323.16px" class="cls_007"><span class="cls_007">8   t</span></div>
+<div style="position:absolute;left:397.68px;top:323.16px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:404.16px;top:323.16px" class="cls_007"><span class="cls_007">g  *p</span></div>
+<div style="position:absolute;left:419.76px;top:323.16px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:425.76px;top:323.16px" class="cls_007"><span class="cls_007">diu</span></div>
+<div style="position:absolute;left:433.68px;top:323.16px" class="cls_007"><span class="cls_007">m</span></div>
+<div style="position:absolute;left:441.60px;top:323.16px" class="cls_007"><span class="cls_007">Oxou.</span></div>
+<div style="position:absolute;left:21.36px;top:327.40px" class="cls_019"><span class="cls_019">erraprrre MITNACITO 01  V UTI4pXt1 among.</span></div>
+<div style="position:absolute;left:31.92px;top:523.60px" class="cls_042"><span class="cls_042">tnikicEEi pave re Eve itseitiAl </span><span class="cls_019">MOW, 1114:1511Arrac </span><span class="cls_042">chile</span></div>
+<div style="position:absolute;left:250.08px;top:523.60px" class="cls_042"><span class="cls_042">E34.3 cxeirpt trratiti re tale Chem*. </span><span class="cls_019">rTO riCileW </span><span class="cls_042">ptpec Tali pewee</span></div>
+<div style="position:absolute;left:27.12px;top:532.48px" class="cls_042"><span class="cls_042">mock natirea -tivc antlecivicreic ram </span><span class="cls_019">ROI </span><span class="cls_042">pt </span><span class="cls_007">aLti mAlk</span></div>
+<div style="position:absolute;left:250.32px;top:532.24px" class="cls_042"><span class="cls_042">rraeaeupea puppet /lc lid kevaupt x‘ipiavneriritc eueplatic, clew</span></div>
+<div style="position:absolute;left:33.84px;top:545.64px" class="cls_007"><span class="cls_007">vi</span></div>
+<div style="position:absolute;left:39.60px;top:545.88px" class="cls_007"><span class="cls_007">v</span></div>
+<div style="position:absolute;left:44.64px;top:546.12px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:52.80px;top:546.12px" class="cls_007"><span class="cls_007">T</span></div>
+<div style="position:absolute;left:55.68px;top:546.12px" class="cls_007"><span class="cls_007">A</span></div>
+<div style="position:absolute;left:63.36px;top:546.12px" class="cls_007"><span class="cls_007">A</span></div>
+<div style="position:absolute;left:67.68px;top:545.88px" class="cls_007"><span class="cls_007">w</span></div>
+<div style="position:absolute;left:73.44px;top:545.88px" class="cls_007"><span class="cls_007">are</span></div>
+<div style="position:absolute;left:84.96px;top:545.88px" class="cls_007"><span class="cls_007">y</span></div>
+<div style="position:absolute;left:90.00px;top:546.12px" class="cls_007"><span class="cls_007">e  riq  tr</span></div>
+<div style="position:absolute;left:115.20px;top:546.36px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:123.12px;top:540.88px" class="cls_007"><span class="cls_007">oyeq </span><span class="cls_042">trit4tuvirenuc. trail</span></div>
+<div style="position:absolute;left:235.68px;top:517.88px" class="cls_050"><span class="cls_050">4</span></div>
+<div style="position:absolute;left:249.84px;top:541.12px" class="cls_042"><span class="cls_042">am Mere nava urrapiauu rirgetrdiaytc pa Ira orekt4oupt,</span></div>
+<div style="position:absolute;left:29.04px;top:549.28px" class="cls_042"><span class="cls_042">anti wadi avrrypaqui ptxpi tratiyealri </span><span class="cls_044">apxtrou.</span></div>
+<div style="position:absolute;left:234.96px;top:549.76px" class="cls_019"><span class="cls_019">naTILOVTLIC </span><span class="cls_051">TO </span><span class="cls_042">Preview, ueeupc at upecuralerrnari -re arturtAtape.</span></div>
+<div style="position:absolute;left:40.56px;top:580.48px" class="cls_042"><span class="cls_042">'KOTEri0.081</span></div>
+<div style="position:absolute;left:102.48px;top:580.48px" class="cls_042"><span class="cls_042">OHIO ri3 5uo IsEIVMO TVA+, Kli-</span></div>
+<div style="position:absolute;left:234.00px;top:580.72px" class="cls_042"><span class="cls_042">EiPpCP4OVFIrii</span></div>
+<div style="position:absolute;left:285.12px;top:585.96px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:290.40px;top:586.20px" class="cls_007"><span class="cls_007">lny. xi</span></div>
+<div style="position:absolute;left:308.88px;top:586.20px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:313.92px;top:586.44px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:319.20px;top:586.44px" class="cls_007"><span class="cls_007">t</span></div>
+<div style="position:absolute;left:321.84px;top:586.44px" class="cls_007"><span class="cls_007">i</span></div>
+<div style="position:absolute;left:326.16px;top:586.44px" class="cls_007"><span class="cls_007">.k</span></div>
+<div style="position:absolute;left:330.48px;top:586.44px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:63.60px;top:596.52px" class="cls_007"><span class="cls_007">stu.</span></div>
+<div style="position:absolute;left:102.72px;top:591.00px" class="cls_042"><span class="cls_042">VCIE KhIK </span><span class="cls_004">arliV </span><span class="cls_007">sku</span></div>
+<div style="position:absolute;left:169.68px;top:597.24px" class="cls_007"><span class="cls_007">g</span></div>
+<div style="position:absolute;left:175.20px;top:597.24px" class="cls_007"><span class="cls_007">s</span></div>
+<div style="position:absolute;left:179.04px;top:597.24px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:184.56px;top:597.24px" class="cls_007"><span class="cls_007">e</span></div>
+<div style="position:absolute;left:193.68px;top:597.24px" class="cls_007"><span class="cls_007">t</span></div>
+<div style="position:absolute;left:197.76px;top:597.24px" class="cls_007"><span class="cls_007">n</span></div>
+<div style="position:absolute;left:203.28px;top:597.24px" class="cls_007"><span class="cls_007">heu-</span></div>
+<div style="position:absolute;left:234.24px;top:597.24px" class="cls_007"><span class="cls_007">E</span></div>
+<div style="position:absolute;left:239.52px;top:597.24px" class="cls_007"><span class="cls_007">ff</span></div>
+<div style="position:absolute;left:243.60px;top:597.24px" class="cls_007"><span class="cls_007">e</span></div>
+<div style="position:absolute;left:248.64px;top:597.00px" class="cls_007"><span class="cls_007">cts,</span></div>
+<div style="position:absolute;left:263.76px;top:597.24px" class="cls_052"><span class="cls_052">❑</span></div>
+<div style="position:absolute;left:269.52px;top:597.00px" class="cls_007"><span class="cls_007">M</span></div>
+<div style="position:absolute;left:277.44px;top:597.00px" class="cls_007"><span class="cls_007">O</span></div>
+<div style="position:absolute;left:284.88px;top:587.76px" class="cls_053"><span class="cls_053">lf</span></div>
+<div style="position:absolute;left:292.08px;top:597.00px" class="cls_007"><span class="cls_007">n</span></div>
+<div style="position:absolute;left:297.60px;top:597.00px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:316.32px;top:597.00px" class="cls_007"><span class="cls_007">d .</span></div>
+<div style="position:absolute;left:323.52px;top:597.24px" class="cls_007"><span class="cls_007">M</span></div>
+<div style="position:absolute;left:329.28px;top:597.24px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:334.08px;top:596.76px" class="cls_007"><span class="cls_007">r</span></div>
+<div style="position:absolute;left:337.20px;top:597.24px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:30.72px;top:608.28px" class="cls_007"><span class="cls_007">n</span></div>
+<div style="position:absolute;left:36.48px;top:608.28px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:41.28px;top:608.28px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:45.84px;top:608.28px" class="cls_007"><span class="cls_007">6</span></div>
+<div style="position:absolute;left:49.92px;top:608.28px" class="cls_007"><span class="cls_007">A</span></div>
+<div style="position:absolute;left:55.92px;top:608.28px" class="cls_007"><span class="cls_007">u</span></div>
+<div style="position:absolute;left:60.72px;top:608.28px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:65.76px;top:608.28px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:72.48px;top:608.28px" class="cls_007"><span class="cls_007">To</span></div>
+<div style="position:absolute;left:81.12px;top:608.04px" class="cls_007"><span class="cls_007">u</span></div>
+<div style="position:absolute;left:85.92px;top:608.04px" class="cls_007"><span class="cls_007">t</span></div>
+<div style="position:absolute;left:102.48px;top:608.28px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:107.76px;top:608.28px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:114.24px;top:608.04px" class="cls_007"><span class="cls_007">Ti</span></div>
+<div style="position:absolute;left:120.24px;top:608.04px" class="cls_007"><span class="cls_007">c</span></div>
+<div style="position:absolute;left:130.08px;top:603.04px" class="cls_042"><span class="cls_042">CiTItIKayrOq </span><span class="cls_007">re</span></div>
+<div style="position:absolute;left:185.52px;top:608.28px" class="cls_007"><span class="cls_007">v</span></div>
+<div style="position:absolute;left:193.44px;top:608.52px" class="cls_007"><span class="cls_007">(rui</span></div>
+<div style="position:absolute;left:205.68px;top:608.52px" class="cls_007"><span class="cls_007">v</span></div>
+<div style="position:absolute;left:210.00px;top:608.52px" class="cls_007"><span class="cls_007">w</span></div>
+<div style="position:absolute;left:253.92px;top:608.28px" class="cls_007"><span class="cls_007">isri</span></div>
+<div style="position:absolute;left:264.00px;top:608.28px" class="cls_007"><span class="cls_007">d</span></div>
+<div style="position:absolute;left:268.80px;top:608.28px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:273.36px;top:608.28px" class="cls_007"><span class="cls_007">x</span></div>
+<div style="position:absolute;left:278.16px;top:608.28px" class="cls_007"><span class="cls_007">EL</span></div>
+<div style="position:absolute;left:287.04px;top:608.28px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:291.84px;top:608.28px" class="cls_007"><span class="cls_007">tri</span></div>
+<div style="position:absolute;left:299.28px;top:608.52px" class="cls_007"><span class="cls_007">v</span></div>
+<div style="position:absolute;left:305.76px;top:608.52px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:311.28px;top:608.52px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:318.00px;top:608.52px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:323.28px;top:608.52px" class="cls_007"><span class="cls_007">l-</span></div>
+<div style="position:absolute;left:326.64px;top:608.52px" class="cls_007"><span class="cls_007">m</span></div>
+<div style="position:absolute;left:335.28px;top:608.52px" class="cls_007"><span class="cls_007">ei</span></div>
+<div style="position:absolute;left:34.32px;top:615.32px" class="cls_009"><span class="cls_009">Eo</span></div>
+<div style="position:absolute;left:45.84px;top:619.32px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:50.40px;top:619.32px" class="cls_007"><span class="cls_007">rt</span></div>
+<div style="position:absolute;left:55.92px;top:619.32px" class="cls_007"><span class="cls_007">6</span></div>
+<div style="position:absolute;left:62.64px;top:614.32px" class="cls_042"><span class="cls_042">TO</span></div>
+<div style="position:absolute;left:102.24px;top:619.56px" class="cls_007"><span class="cls_007">1</span></div>
+<div style="position:absolute;left:109.92px;top:613.56px" class="cls_006"><span class="cls_006">OW UVTfCrrOlV1). </span><span class="cls_042">`Eiovtaq</span></div>
+<div style="position:absolute;left:233.76px;top:619.32px" class="cls_007"><span class="cls_007">h</span></div>
+<div style="position:absolute;left:240.96px;top:619.32px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:244.56px;top:619.32px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:249.84px;top:619.56px" class="cls_007"><span class="cls_007">i</span></div>
+<div style="position:absolute;left:250.32px;top:619.56px" class="cls_007"><span class="cls_007">Z</span></div>
+<div style="position:absolute;left:255.60px;top:619.56px" class="cls_007"><span class="cls_007">i</span></div>
+<div style="position:absolute;left:256.80px;top:619.56px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:35.04px;top:629.40px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:40.32px;top:629.40px" class="cls_007"><span class="cls_007">ie,e-rE.  ri</span></div>
+<div style="position:absolute;left:64.80px;top:629.88px" class="cls_007"><span class="cls_007">g</span></div>
+<div style="position:absolute;left:72.00px;top:630.12px" class="cls_007"><span class="cls_007">v</span></div>
+<div style="position:absolute;left:82.08px;top:630.12px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:87.12px;top:630.36px" class="cls_007"><span class="cls_007">-</span></div>
+<div style="position:absolute;left:102.96px;top:629.64px" class="cls_007"><span class="cls_007">Ke</span></div>
+<div style="position:absolute;left:110.16px;top:629.64px" class="cls_007"><span class="cls_007">n</span></div>
+<div style="position:absolute;left:120.24px;top:629.88px" class="cls_007"><span class="cls_007">t</span></div>
+<div style="position:absolute;left:124.32px;top:629.88px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:128.88px;top:629.88px" class="cls_007"><span class="cls_007">i</span></div>
+<div style="position:absolute;left:131.04px;top:629.88px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:138.24px;top:630.12px" class="cls_007"><span class="cls_007">e</span></div>
+<div style="position:absolute;left:142.56px;top:630.36px" class="cls_007"><span class="cls_007">n</span></div>
+<div style="position:absolute;left:147.60px;top:630.36px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:154.08px;top:630.36px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:158.64px;top:630.36px" class="cls_007"><span class="cls_007">y</span></div>
+<div style="position:absolute;left:163.44px;top:630.36px" class="cls_007"><span class="cls_007">ei.</span></div>
+<div style="position:absolute;left:242.64px;top:630.60px" class="cls_007"><span class="cls_007">H</span></div>
+<div style="position:absolute;left:250.80px;top:630.60px" class="cls_007"><span class="cls_007">Kir:</span></div>
+<div style="position:absolute;left:258.48px;top:630.60px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:265.20px;top:630.60px" class="cls_007"><span class="cls_007">reli</span></div>
+<div style="position:absolute;left:275.76px;top:630.60px" class="cls_007"><span class="cls_007">m</span></div>
+<div style="position:absolute;left:284.40px;top:630.36px" class="cls_007"><span class="cls_007">L</span></div>
+<div style="position:absolute;left:290.16px;top:630.84px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:297.36px;top:630.60px" class="cls_007"><span class="cls_007">se</span></div>
+<div style="position:absolute;left:308.16px;top:630.60px" class="cls_007"><span class="cls_007">R</span></div>
+<div style="position:absolute;left:313.92px;top:630.60px" class="cls_007"><span class="cls_007">e</span></div>
+<div style="position:absolute;left:318.24px;top:630.60px" class="cls_007"><span class="cls_007">d</span></div>
+<div style="position:absolute;left:323.28px;top:630.60px" class="cls_007"><span class="cls_007">u</span></div>
+<div style="position:absolute;left:327.84px;top:630.60px" class="cls_007"><span class="cls_007">ction</span></div>
+<div style="position:absolute;left:34.08px;top:640.68px" class="cls_007"><span class="cls_007">w</span></div>
+<div style="position:absolute;left:43.92px;top:635.92px" class="cls_007"><span class="cls_007">., </span><span class="cls_042">TIOlOITITO</span></div>
+<div style="position:absolute;left:102.48px;top:636.40px" class="cls_042"><span class="cls_042">N</span></div>
+<div style="position:absolute;left:115.44px;top:636.16px" class="cls_042"><span class="cls_042">rigTE Tig 15tiv</span></div>
+<div style="position:absolute;left:160.80px;top:636.40px" class="cls_042"><span class="cls_042">W</span></div>
+<div style="position:absolute;left:171.36px;top:636.40px" class="cls_042"><span class="cls_042">:rq </span><span class="cls_007">sve</span></div>
+<div style="position:absolute;left:192.96px;top:641.16px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:197.52px;top:641.16px" class="cls_007"><span class="cls_007">y</span></div>
+<div style="position:absolute;left:202.32px;top:641.16px" class="cls_007"><span class="cls_007">elsc</span></div>
+<div style="position:absolute;left:234.00px;top:641.16px" class="cls_007"><span class="cls_007">ElE</span></div>
+<div style="position:absolute;left:243.36px;top:641.16px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:248.40px;top:641.16px" class="cls_007"><span class="cls_007">A</span></div>
+<div style="position:absolute;left:259.20px;top:636.40px" class="cls_007"><span class="cls_007">ct </span><span class="cls_042">tgiNT[XI</span></div>
+<div style="position:absolute;left:295.20px;top:641.64px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:300.24px;top:641.64px" class="cls_007"><span class="cls_007">n</span></div>
+<div style="position:absolute;left:305.28px;top:641.64px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:310.32px;top:641.64px" class="cls_007"><span class="cls_007">e</span></div>
+<div style="position:absolute;left:314.88px;top:641.88px" class="cls_007"><span class="cls_007">c</span></div>
+<div style="position:absolute;left:319.68px;top:641.88px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:324.72px;top:641.88px" class="cls_007"><span class="cls_007">u</span></div>
+<div style="position:absolute;left:329.04px;top:641.88px" class="cls_007"><span class="cls_007">f</span></div>
+<div style="position:absolute;left:332.64px;top:641.88px" class="cls_007"><span class="cls_007">r</span></div>
+<div style="position:absolute;left:334.08px;top:641.88px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:339.36px;top:642.12px" class="cls_007"><span class="cls_007">-</span></div>
+<div style="position:absolute;left:25.68px;top:647.20px" class="cls_042"><span class="cls_042">TO</span></div>
+<div style="position:absolute;left:35.52px;top:652.20px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:40.80px;top:652.20px" class="cls_007"><span class="cls_007">etic</span></div>
+<div style="position:absolute;left:50.64px;top:652.20px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:59.28px;top:652.20px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:66.48px;top:652.20px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:71.04px;top:652.20px" class="cls_007"><span class="cls_007">n</span></div>
+<div style="position:absolute;left:76.56px;top:652.20px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:81.12px;top:652.20px" class="cls_007"><span class="cls_007">-</span></div>
+<div style="position:absolute;left:102.48px;top:652.68px" class="cls_007"><span class="cls_007">efic</span></div>
+<div style="position:absolute;left:115.44px;top:652.68px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:124.56px;top:652.44px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:129.36px;top:652.44px" class="cls_007"><span class="cls_007">y</span></div>
+<div style="position:absolute;left:134.16px;top:652.44px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:139.20px;top:652.44px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:144.24px;top:652.44px" class="cls_007"><span class="cls_007">i</span></div>
+<div style="position:absolute;left:145.68px;top:652.44px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:150.72px;top:652.44px" class="cls_007"><span class="cls_007">c</span></div>
+<div style="position:absolute;left:155.76px;top:648.72px" class="cls_007"><span class="cls_007">.</span><span class="cls_024">rto</span><span class="cls_007">u</span></div>
+<div style="position:absolute;left:176.88px;top:652.44px" class="cls_007"><span class="cls_007">n</span></div>
+<div style="position:absolute;left:182.40px;top:652.20px" class="cls_007"><span class="cls_007">e</span></div>
+<div style="position:absolute;left:186.72px;top:652.20px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:191.76px;top:652.20px" class="cls_007"><span class="cls_007">hto</span></div>
+<div style="position:absolute;left:202.80px;top:652.20px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:207.12px;top:652.20px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:212.40px;top:652.20px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:217.68px;top:652.20px" class="cls_007"><span class="cls_007">-</span></div>
+<div style="position:absolute;left:234.24px;top:652.44px" class="cls_007"><span class="cls_007">noiri</span></div>
+<div style="position:absolute;left:250.80px;top:652.44px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:254.64px;top:652.44px" class="cls_007"><span class="cls_007">n</span></div>
+<div style="position:absolute;left:260.16px;top:652.44px" class="cls_007"><span class="cls_007">q</span></div>
+<div style="position:absolute;left:265.20px;top:652.44px" class="cls_007"><span class="cls_007">,</span></div>
+<div style="position:absolute;left:279.60px;top:652.44px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:285.36px;top:652.44px" class="cls_007"><span class="cls_007">noi</span></div>
+<div style="position:absolute;left:296.88px;top:652.44px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:304.08px;top:652.44px" class="cls_007"><span class="cls_007">1.a</span></div>
+<div style="position:absolute;left:309.12px;top:652.44px" class="cls_007"><span class="cls_007">n</span></div>
+<div style="position:absolute;left:314.16px;top:652.44px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:319.20px;top:652.44px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:324.24px;top:652.44px" class="cls_007"><span class="cls_007">e</span></div>
+<div style="position:absolute;left:330.24px;top:652.44px" class="cls_007"><span class="cls_007">xc v</span></div>
+<div style="position:absolute;left:344.40px;top:652.44px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:102.72px;top:663.48px" class="cls_007"><span class="cls_007">V</span></div>
+<div style="position:absolute;left:106.32px;top:663.48px" class="cls_007"><span class="cls_007">O</span></div>
+<div style="position:absolute;left:111.36px;top:663.48px" class="cls_007"><span class="cls_007">U</span></div>
+<div style="position:absolute;left:115.68px;top:663.48px" class="cls_007"><span class="cls_007">V</span></div>
+<div style="position:absolute;left:122.16px;top:663.48px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:127.20px;top:663.48px" class="cls_007"><span class="cls_007">n</span></div>
+<div style="position:absolute;left:132.24px;top:663.48px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:139.44px;top:663.48px" class="cls_007"><span class="cls_007">civ</span></div>
+<div style="position:absolute;left:148.56px;top:663.48px" class="cls_007"><span class="cls_007">n</span></div>
+<div style="position:absolute;left:153.84px;top:663.48px" class="cls_007"><span class="cls_007">y</span></div>
+<div style="position:absolute;left:158.64px;top:663.48px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:163.20px;top:663.48px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:168.24px;top:663.48px" class="cls_007"><span class="cls_007">l</span></div>
+<div style="position:absolute;left:173.28px;top:663.48px" class="cls_007"><span class="cls_007">i</span></div>
+<div style="position:absolute;left:174.00px;top:663.48px" class="cls_007"><span class="cls_007">n</span></div>
+<div style="position:absolute;left:179.52px;top:663.48px" class="cls_007"><span class="cls_007">,</span></div>
+<div style="position:absolute;left:183.36px;top:663.48px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:188.40px;top:663.24px" class="cls_007"><span class="cls_007">n axo</span></div>
+<div style="position:absolute;left:207.84px;top:663.00px" class="cls_007"><span class="cls_007">n</span></div>
+<div style="position:absolute;left:212.88px;top:663.24px" class="cls_007"><span class="cls_007">s')</span></div>
+<div style="position:absolute;left:233.76px;top:663.48px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:238.80px;top:663.48px" class="cls_007"><span class="cls_007">u</span></div>
+<div style="position:absolute;left:243.84px;top:663.48px" class="cls_007"><span class="cls_007">e</span></div>
+<div style="position:absolute;left:248.64px;top:663.48px" class="cls_007"><span class="cls_007">v</span></div>
+<div style="position:absolute;left:253.92px;top:658.48px" class="cls_007"><span class="cls_007">iaers </span><span class="cls_042">XElproSVOKTIMirryva</span></div>
+<div style="position:absolute;left:102.24px;top:674.76px" class="cls_007"><span class="cls_007">.re</span></div>
+<div style="position:absolute;left:104.88px;top:674.76px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:112.80px;top:674.52px" class="cls_007"><span class="cls_007">..K</span></div>
+<div style="position:absolute;left:122.88px;top:674.52px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:128.64px;top:674.52px" class="cls_007"><span class="cls_007">i)</span></div>
+<div style="position:absolute;left:132.96px;top:674.52px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:138.24px;top:674.52px" class="cls_007"><span class="cls_007">su</span></div>
+<div style="position:absolute;left:147.36px;top:674.52px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:152.40px;top:674.52px" class="cls_007"><span class="cls_007">.  n</span></div>
+<div style="position:absolute;left:163.20px;top:674.52px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:168.24px;top:674.52px" class="cls_007"><span class="cls_007">w</span></div>
+<div style="position:absolute;left:176.88px;top:668.76px" class="cls_006"><span class="cls_006">t pad,</span></div>
+<div style="position:absolute;left:205.68px;top:674.76px" class="cls_007"><span class="cls_007">t</span></div>
+<div style="position:absolute;left:210.24px;top:674.76px" class="cls_007"><span class="cls_007">w</span></div>
+<div style="position:absolute;left:216.48px;top:674.76px" class="cls_007"><span class="cls_007">q</span></div>
+<div style="position:absolute;left:233.76px;top:676.20px" class="cls_007"><span class="cls_007">ExP</span></div>
+<div style="position:absolute;left:243.84px;top:675.96px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:248.88px;top:675.72px" class="cls_007"><span class="cls_007">P</span></div>
+<div style="position:absolute;left:253.92px;top:675.48px" class="cls_007"><span class="cls_007">i</span></div>
+<div style="position:absolute;left:255.36px;top:675.48px" class="cls_007"><span class="cls_007">x</span></div>
+<div style="position:absolute;left:259.68px;top:675.24px" class="cls_007"><span class="cls_007">i</span></div>
+<div style="position:absolute;left:262.80px;top:675.24px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:268.32px;top:674.76px" class="cls_007"><span class="cls_007">sTs</span></div>
+<div style="position:absolute;left:282.72px;top:674.76px" class="cls_007"><span class="cls_007">t</span></div>
+<div style="position:absolute;left:287.76px;top:674.76px" class="cls_007"><span class="cls_007">r</span></div>
+<div style="position:absolute;left:290.16px;top:674.76px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:294.96px;top:674.76px" class="cls_007"><span class="cls_007">y</span></div>
+<div style="position:absolute;left:302.16px;top:674.76px" class="cls_007"><span class="cls_007">s</span></div>
+<div style="position:absolute;left:306.00px;top:674.76px" class="cls_007"><span class="cls_007">c</span></div>
+<div style="position:absolute;left:312.96px;top:669.52px" class="cls_042"><span class="cls_042">puOtgoeig</span></div>
+<div style="position:absolute;left:30.96px;top:684.84px" class="cls_007"><span class="cls_007">fI</span></div>
+<div style="position:absolute;left:36.72px;top:684.84px" class="cls_007"><span class="cls_007">X</span></div>
+<div style="position:absolute;left:41.76px;top:684.84px" class="cls_007"><span class="cls_007">O</span></div>
+<div style="position:absolute;left:47.04px;top:684.84px" class="cls_007"><span class="cls_007">Y</span></div>
+<div style="position:absolute;left:102.24px;top:685.08px" class="cls_007"><span class="cls_007">s</span></div>
+<div style="position:absolute;left:106.56px;top:685.08px" class="cls_007"><span class="cls_007">i</span></div>
+<div style="position:absolute;left:108.72px;top:685.08px" class="cls_007"><span class="cls_007">d</span></div>
+<div style="position:absolute;left:113.76px;top:685.32px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:118.80px;top:685.32px" class="cls_007"><span class="cls_007">ycio</span></div>
+<div style="position:absolute;left:129.12px;top:685.56px" class="cls_007"><span class="cls_007">y</span></div>
+<div style="position:absolute;left:133.92px;top:685.56px" class="cls_007"><span class="cls_007">il</span></div>
+<div style="position:absolute;left:141.12px;top:685.80px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:146.16px;top:686.04px" class="cls_007"><span class="cls_007">itunfiq</span></div>
+<div style="position:absolute;left:177.84px;top:686.76px" class="cls_007"><span class="cls_007">cl</span></div>
+<div style="position:absolute;left:182.40px;top:686.76px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:187.68px;top:686.52px" class="cls_007"><span class="cls_007">x</span></div>
+<div style="position:absolute;left:192.96px;top:686.04px" class="cls_007"><span class="cls_007">siou.</span></div>
+<div style="position:absolute;left:233.28px;top:680.56px" class="cls_042"><span class="cls_042">via -cpirierripan cin6 KfiCear </span><span class="cls_007">(i</span></div>
+<div style="position:absolute;left:340.08px;top:686.28px" class="cls_007"><span class="cls_007">x</span></div>
+<div style="position:absolute;left:344.88px;top:686.28px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:30.48px;top:690.88px" class="cls_042"><span class="cls_042">OETE. LAM, larpXdO</span></div>
+<div style="position:absolute;left:111.36px;top:692.56px" class="cls_021"><span class="cls_021">ro </span><span class="cls_007">n</span></div>
+<div style="position:absolute;left:128.16px;top:697.56px" class="cls_007"><span class="cls_007">P</span></div>
+<div style="position:absolute;left:133.20px;top:697.56px" class="cls_007"><span class="cls_007">O</span></div>
+<div style="position:absolute;left:137.76px;top:697.56px" class="cls_007"><span class="cls_007">Y</span></div>
+<div style="position:absolute;left:142.56px;top:697.80px" class="cls_007"><span class="cls_007">P</span></div>
+<div style="position:absolute;left:147.84px;top:697.80px" class="cls_007"><span class="cls_007">c11.11-1</span></div>
+<div style="position:absolute;left:162.24px;top:697.80px" class="cls_007"><span class="cls_007">0</span></div>
+<div style="position:absolute;left:169.44px;top:698.04px" class="cls_007"><span class="cls_007">TrE</span></div>
+<div style="position:absolute;left:178.80px;top:698.04px" class="cls_007"><span class="cls_007">P</span></div>
+<div style="position:absolute;left:184.32px;top:698.04px" class="cls_007"><span class="cls_007">I</span></div>
+<div style="position:absolute;left:185.28px;top:698.04px" class="cls_007"><span class="cls_007">M</span></div>
+<div style="position:absolute;left:195.36px;top:698.28px" class="cls_007"><span class="cls_007">P</span></div>
+<div style="position:absolute;left:200.16px;top:698.28px" class="cls_007"><span class="cls_007">P</span></div>
+<div style="position:absolute;left:206.16px;top:698.28px" class="cls_007"><span class="cls_007">ivel</span></div>
+<div style="position:absolute;left:233.52px;top:696.36px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:238.56px;top:696.36px" class="cls_007"><span class="cls_007">v</span></div>
+<div style="position:absolute;left:242.88px;top:696.36px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:247.92px;top:696.60px" class="cls_007"><span class="cls_007">n</span></div>
+<div style="position:absolute;left:252.96px;top:696.60px" class="cls_007"><span class="cls_007">w</span></div>
+<div style="position:absolute;left:260.88px;top:696.60px" class="cls_007"><span class="cls_007">in</span></div>
+<div style="position:absolute;left:266.40px;top:696.60px" class="cls_007"><span class="cls_007">g</span></div>
+<div style="position:absolute;left:273.60px;top:691.60px" class="cls_042"><span class="cls_042">14.d.</span></div>
+<div style="position:absolute;left:102.48px;top:707.40px" class="cls_007"><span class="cls_007">5</span></div>
+<div style="position:absolute;left:107.52px;top:707.40px" class="cls_007"><span class="cls_007">ert</span></div>
+<div style="position:absolute;left:115.44px;top:707.40px" class="cls_007"><span class="cls_007">6</span></div>
+<div style="position:absolute;left:120.48px;top:707.40px" class="cls_007"><span class="cls_007">t3</span></div>
+<div style="position:absolute;left:125.52px;top:707.40px" class="cls_007"><span class="cls_007">s</span></div>
+<div style="position:absolute;left:129.84px;top:707.40px" class="cls_007"><span class="cls_007">c</span></div>
+<div style="position:absolute;left:137.04px;top:707.40px" class="cls_049"><span class="cls_049">w</span></div>
+<div style="position:absolute;left:146.64px;top:707.40px" class="cls_049"><span class="cls_049">t, </span><span class="cls_007">  KCI</span></div>
+<div style="position:absolute;left:164.40px;top:707.64px" class="cls_007"><span class="cls_007">8</span></div>
+<div style="position:absolute;left:169.44px;top:707.40px" class="cls_007"><span class="cls_007">6</span></div>
+<div style="position:absolute;left:176.88px;top:707.40px" class="cls_007"><span class="cls_007">n</span></div>
+<div style="position:absolute;left:181.68px;top:707.40px" class="cls_007"><span class="cls_007">. pic. Tic,</span></div>
+<div style="position:absolute;left:208.32px;top:707.40px" class="cls_007"><span class="cls_007">b</span></div>
+<div style="position:absolute;left:212.88px;top:707.40px" class="cls_007"><span class="cls_007">i-</span></div>
+<div style="position:absolute;left:242.40px;top:707.40px" class="cls_049"><span class="cls_049">1-6.2ti</span></div>
+<div style="position:absolute;left:255.84px;top:707.64px" class="cls_049"><span class="cls_049">K</span></div>
+<div style="position:absolute;left:265.20px;top:702.64px" class="cls_049"><span class="cls_049">, </span><span class="cls_007">via </span><span class="cls_042">110011E </span><span class="cls_007">Orn</span></div>
+<div style="position:absolute;left:326.40px;top:707.88px" class="cls_007"><span class="cls_007">O</span></div>
+<div style="position:absolute;left:331.44px;top:707.88px" class="cls_007"><span class="cls_007">w</span></div>
+<div style="position:absolute;left:337.68px;top:707.88px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:342.96px;top:707.88px" class="cls_007"><span class="cls_007">e-</span></div>
+<div style="position:absolute;left:44.88px;top:718.20px" class="cls_007"><span class="cls_007">13ei</span></div>
+<div style="position:absolute;left:52.80px;top:718.44px" class="cls_007"><span class="cls_007">t</span></div>
+<div style="position:absolute;left:58.08px;top:718.44px" class="cls_007"><span class="cls_007">m</span></div>
+<div style="position:absolute;left:63.60px;top:718.44px" class="cls_007"><span class="cls_007">eTe</span></div>
+<div style="position:absolute;left:102.72px;top:718.20px" class="cls_007"><span class="cls_007">t</span></div>
+<div style="position:absolute;left:104.16px;top:718.20px" class="cls_007"><span class="cls_007">*</span></div>
+<div style="position:absolute;left:118.08px;top:712.92px" class="cls_008"><span class="cls_008">r</span></div>
+<div style="position:absolute;left:121.44px;top:718.44px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:126.24px;top:712.68px" class="cls_008"><span class="cls_008">u </span><span class="cls_007">fl</span></div>
+<div style="position:absolute;left:138.00px;top:718.68px" class="cls_007"><span class="cls_007">u</span></div>
+<div style="position:absolute;left:143.04px;top:718.68px" class="cls_007"><span class="cls_007">e</span></div>
+<div style="position:absolute;left:148.80px;top:718.68px" class="cls_007"><span class="cls_007">l</span></div>
+<div style="position:absolute;left:154.56px;top:718.68px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:159.60px;top:718.68px" class="cls_007"><span class="cls_007">ct</span></div>
+<div style="position:absolute;left:165.36px;top:718.68px" class="cls_007"><span class="cls_007">c</span></div>
+<div style="position:absolute;left:186.96px;top:718.68px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:192.00px;top:718.68px" class="cls_007"><span class="cls_007">n</span></div>
+<div style="position:absolute;left:197.04px;top:718.68px" class="cls_007"><span class="cls_007">oisq</span></div>
+<div style="position:absolute;left:233.76px;top:718.68px" class="cls_007"><span class="cls_007">etv  614</span></div>
+<div style="position:absolute;left:253.20px;top:718.68px" class="cls_007"><span class="cls_007">600</span></div>
+<div style="position:absolute;left:267.60px;top:718.68px" class="cls_007"><span class="cls_007">q</span></div>
+<div style="position:absolute;left:274.80px;top:718.68px" class="cls_007"><span class="cls_007">iou  rt</span></div>
+<div style="position:absolute;left:295.44px;top:718.68px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:300.72px;top:718.68px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:305.76px;top:718.92px" class="cls_007"><span class="cls_007">y</span></div>
+<div style="position:absolute;left:309.84px;top:718.92px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:314.88px;top:718.92px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:319.92px;top:718.92px" class="cls_007"><span class="cls_007">w</span></div>
+<div style="position:absolute;left:329.52px;top:718.92px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:335.52px;top:718.92px" class="cls_007"><span class="cls_007">r</span></div>
+<div style="position:absolute;left:338.16px;top:718.92px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:343.20px;top:718.92px" class="cls_007"><span class="cls_007">q</span></div>
+<div style="position:absolute;left:42.96px;top:729.24px" class="cls_007"><span class="cls_007">to</span></div>
+<div style="position:absolute;left:48.96px;top:729.24px" class="cls_007"><span class="cls_007">y</span></div>
+<div style="position:absolute;left:53.76px;top:729.24px" class="cls_007"><span class="cls_007">ei</span></div>
+<div style="position:absolute;left:58.08px;top:729.24px" class="cls_007"><span class="cls_007">c</span></div>
+<div style="position:absolute;left:63.84px;top:729.24px" class="cls_007"><span class="cls_007">,</span></div>
+<div style="position:absolute;left:102.72px;top:729.96px" class="cls_007"><span class="cls_007">kn</span></div>
+<div style="position:absolute;left:112.32px;top:729.96px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:117.84px;top:729.96px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:122.16px;top:729.72px" class="cls_007"><span class="cls_007">e</span></div>
+<div style="position:absolute;left:126.72px;top:729.72px" class="cls_007"><span class="cls_007">its</span></div>
+<div style="position:absolute;left:149.76px;top:729.72px" class="cls_007"><span class="cls_007">T</span></div>
+<div style="position:absolute;left:153.12px;top:729.72px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:158.40px;top:729.72px" class="cls_007"><span class="cls_007">ari</span></div>
+<div style="position:absolute;left:168.24px;top:729.72px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:172.80px;top:729.72px" class="cls_007"><span class="cls_007">u</span></div>
+<div style="position:absolute;left:178.32px;top:729.96px" class="cls_007"><span class="cls_007">c</span></div>
+<div style="position:absolute;left:183.36px;top:729.96px" class="cls_007"><span class="cls_007">i</span></div>
+<div style="position:absolute;left:185.04px;top:729.96px" class="cls_007"><span class="cls_007">t</span></div>
+<div style="position:absolute;left:189.84px;top:729.96px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:194.88px;top:729.96px" class="cls_007"><span class="cls_007">c</span></div>
+<div style="position:absolute;left:199.44px;top:729.96px" class="cls_007"><span class="cls_007">rt fi</span></div>
+<div style="position:absolute;left:233.76px;top:729.96px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:238.80px;top:729.96px" class="cls_007"><span class="cls_007">ri</span></div>
+<div style="position:absolute;left:243.84px;top:729.96px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:248.88px;top:729.48px" class="cls_007"><span class="cls_007">E3nio3Oet</span></div>
+<div style="position:absolute;left:279.84px;top:729.72px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:284.40px;top:729.72px" class="cls_007"><span class="cls_007">e</span></div>
+<div style="position:absolute;left:289.44px;top:729.72px" class="cls_007"><span class="cls_007">v</span></div>
+<div style="position:absolute;left:293.52px;top:729.72px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:300.72px;top:729.72px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:305.76px;top:729.72px" class="cls_007"><span class="cls_007">e</span></div>
+<div style="position:absolute;left:312.24px;top:729.72px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:316.80px;top:729.72px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:321.84px;top:729.72px" class="cls_007"><span class="cls_007">x</span></div>
+<div style="position:absolute;left:326.64px;top:729.72px" class="cls_007"><span class="cls_007">si</span></div>
+<div style="position:absolute;left:332.40px;top:729.72px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:43.20px;top:740.76px" class="cls_007"><span class="cls_007">51.cri</span></div>
+<div style="position:absolute;left:54.24px;top:740.76px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:59.76px;top:740.76px" class="cls_007"><span class="cls_007">r</span></div>
+<div style="position:absolute;left:61.92px;top:740.76px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:69.84px;top:741.00px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:77.76px;top:735.04px" class="cls_021"><span class="cls_021">ry</span></div>
+<div style="position:absolute;left:102.24px;top:735.52px" class="cls_042"><span class="cls_042">va C11066X-adIt Tiq </span><span class="cls_007">n</span></div>
+<div style="position:absolute;left:180.48px;top:741.24px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:185.76px;top:741.24px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:190.08px;top:741.24px" class="cls_007"><span class="cls_007">s</span></div>
+<div style="position:absolute;left:194.64px;top:741.24px" class="cls_007"><span class="cls_007">n</span></div>
+<div style="position:absolute;left:200.16px;top:741.24px" class="cls_007"><span class="cls_007">uk</span></div>
+<div style="position:absolute;left:205.92px;top:741.24px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:210.96px;top:741.00px" class="cls_007"><span class="cls_007">•</span></div>
+<div style="position:absolute;left:233.28px;top:741.00px" class="cls_007"><span class="cls_007">w</span></div>
+<div style="position:absolute;left:239.52px;top:741.00px" class="cls_007"><span class="cls_007">e</span></div>
+<div style="position:absolute;left:244.08px;top:741.00px" class="cls_007"><span class="cls_007">v,</span></div>
+<div style="position:absolute;left:263.52px;top:741.00px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:268.56px;top:741.00px" class="cls_007"><span class="cls_007">rt</span></div>
+<div style="position:absolute;left:273.60px;top:741.00px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:278.64px;top:741.00px" class="cls_007"><span class="cls_007">i</span></div>
+<div style="position:absolute;left:280.08px;top:741.00px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:288.00px;top:741.00px" class="cls_007"><span class="cls_007">6</span></div>
+<div style="position:absolute;left:291.60px;top:741.00px" class="cls_007"><span class="cls_007">0</span></div>
+<div style="position:absolute;left:300.24px;top:741.00px" class="cls_007"><span class="cls_007">4</span></div>
+<div style="position:absolute;left:311.04px;top:741.00px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:316.08px;top:741.00px" class="cls_007"><span class="cls_007">r</span></div>
+<div style="position:absolute;left:318.96px;top:741.00px" class="cls_007"><span class="cls_007">n</span></div>
+<div style="position:absolute;left:35.52px;top:751.32px" class="cls_007"><span class="cls_007">T</span></div>
+<div style="position:absolute;left:39.60px;top:751.32px" class="cls_007"><span class="cls_007">g</span></div>
+<div style="position:absolute;left:48.24px;top:751.32px" class="cls_007"><span class="cls_007">itcrr</span></div>
+<div style="position:absolute;left:62.16px;top:751.32px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:66.96px;top:751.32px" class="cls_007"><span class="cls_007">c</span></div>
+<div style="position:absolute;left:102.48px;top:751.08px" class="cls_007"><span class="cls_007">ye</span></div>
+<div style="position:absolute;left:109.68px;top:751.08px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:120.24px;top:751.56px" class="cls_007"><span class="cls_007">fl</span></div>
+<div style="position:absolute;left:126.24px;top:751.56px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:131.28px;top:751.56px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:136.32px;top:751.56px" class="cls_007"><span class="cls_007">T</span></div>
+<div style="position:absolute;left:139.68px;top:751.56px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:144.96px;top:751.80px" class="cls_007"><span class="cls_007">Li</span></div>
+<div style="position:absolute;left:151.44px;top:751.80px" class="cls_007"><span class="cls_007">s</span></div>
+<div style="position:absolute;left:155.76px;top:751.80px" class="cls_007"><span class="cls_007">cp</span></div>
+<div style="position:absolute;left:160.80px;top:751.80px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:166.32px;top:751.80px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:171.12px;top:751.80px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:176.64px;top:751.80px" class="cls_007"><span class="cls_007">d</span></div>
+<div style="position:absolute;left:181.44px;top:751.80px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:186.48px;top:751.80px" class="cls_007"><span class="cls_007">ct</span></div>
+<div style="position:absolute;left:193.68px;top:751.80px" class="cls_007"><span class="cls_007">s</span></div>
+<div style="position:absolute;left:200.16px;top:751.80px" class="cls_007"><span class="cls_007">Ra-</span></div>
+<div style="position:absolute;left:234.00px;top:751.80px" class="cls_007"><span class="cls_007">xsi</span></div>
+<div style="position:absolute;left:244.32px;top:751.80px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:252.00px;top:751.80px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:261.60px;top:751.80px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:266.16px;top:751.80px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:271.68px;top:752.04px" class="cls_007"><span class="cls_007">e</span></div>
+<div style="position:absolute;left:278.16px;top:752.04px" class="cls_007"><span class="cls_007">rs v</span></div>
+<div style="position:absolute;left:291.60px;top:752.04px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:299.04px;top:752.04px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:303.84px;top:752.04px" class="cls_007"><span class="cls_007">e</span></div>
+<div style="position:absolute;left:307.68px;top:752.04px" class="cls_007"><span class="cls_007">u</span></div>
+<div style="position:absolute;left:314.88px;top:752.28px" class="cls_007"><span class="cls_007">rr</span></div>
+<div style="position:absolute;left:319.68px;top:752.28px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:324.72px;top:752.28px" class="cls_007"><span class="cls_007">tip</span></div>
+<div style="position:absolute;left:334.80px;top:752.28px" class="cls_007"><span class="cls_007">s</span></div>
+<div style="position:absolute;left:339.84px;top:752.28px" class="cls_007"><span class="cls_007">t</span></div>
+<div style="position:absolute;left:342.72px;top:752.28px" class="cls_007"><span class="cls_007">s</span></div>
+<div style="position:absolute;left:32.88px;top:762.60px" class="cls_007"><span class="cls_007">t</span></div>
+<div style="position:absolute;left:35.52px;top:762.60px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:42.96px;top:762.60px" class="cls_007"><span class="cls_007">n</span></div>
+<div style="position:absolute;left:48.48px;top:762.60px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:52.80px;top:762.60px" class="cls_007"><span class="cls_007">v</span></div>
+<div style="position:absolute;left:57.36px;top:762.60px" class="cls_007"><span class="cls_007">ii</span></div>
+<div style="position:absolute;left:62.40px;top:762.60px" class="cls_007"><span class="cls_007">m</span></div>
+<div style="position:absolute;left:68.40px;top:762.60px" class="cls_007"><span class="cls_007">,</span></div>
+<div style="position:absolute;left:73.20px;top:762.60px" class="cls_007"><span class="cls_007">?t</span></div>
+<div style="position:absolute;left:77.28px;top:762.60px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:82.32px;top:762.60px" class="cls_007"><span class="cls_007">-</span></div>
+<div style="position:absolute;left:102.48px;top:762.60px" class="cls_007"><span class="cls_007">n</span></div>
+<div style="position:absolute;left:107.52px;top:762.60px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:112.56px;top:762.60px" class="cls_007"><span class="cls_007">L</span></div>
+<div style="position:absolute;left:114.00px;top:762.60px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:121.20px;top:757.84px" class="cls_021"><span class="cls_021">e</span><span class="cls_007">s</span><span class="cls_021">pe</span><span class="cls_007">,</span></div>
+<div style="position:absolute;left:140.16px;top:762.60px" class="cls_007"><span class="cls_007">n</span></div>
+<div style="position:absolute;left:144.96px;top:762.60px" class="cls_007"><span class="cls_007">e</span></div>
+<div style="position:absolute;left:150.72px;top:762.60px" class="cls_007"><span class="cls_007">rtiii.</span></div>
+<div style="position:absolute;left:162.00px;top:762.60px" class="cls_007"><span class="cls_007">tro</span></div>
+<div style="position:absolute;left:172.32px;top:762.60px" class="cls_007"><span class="cls_007">c</span></div>
+<div style="position:absolute;left:179.04px;top:757.60px" class="cls_042"><span class="cls_042">TO</span></div>
+<div style="position:absolute;left:190.32px;top:762.60px" class="cls_007"><span class="cls_007">P</span></div>
+<div style="position:absolute;left:195.36px;top:762.60px" class="cls_007"><span class="cls_007">revi</span></div>
+<div style="position:absolute;left:208.32px;top:762.60px" class="cls_007"><span class="cls_007">e</span></div>
+<div style="position:absolute;left:212.64px;top:762.60px" class="cls_007"><span class="cls_007">w</span></div>
+<div style="position:absolute;left:219.84px;top:762.84px" class="cls_007"><span class="cls_007">,</span></div>
+<div style="position:absolute;left:233.52px;top:762.60px" class="cls_007"><span class="cls_007">a</span></div>
+<div style="position:absolute;left:238.56px;top:762.60px" class="cls_007"><span class="cls_007">s</span></div>
+<div style="position:absolute;left:245.04px;top:762.84px" class="cls_007"><span class="cls_007">&</span></div>
+<div style="position:absolute;left:256.56px;top:762.60px" class="cls_007"><span class="cls_007">t</span></div>
+<div style="position:absolute;left:258.24px;top:762.60px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:265.92px;top:762.60px" class="cls_007"><span class="cls_007">f</span></div>
+<div style="position:absolute;left:268.08px;top:762.84px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:273.12px;top:762.84px" class="cls_007"><span class="cls_007">r</span></div>
+<div style="position:absolute;left:276.00px;top:762.84px" class="cls_007"><span class="cls_007">m</span></div>
+<div style="position:absolute;left:282.72px;top:762.84px" class="cls_007"><span class="cls_007">ai  lit IT   Ertlik</span></div>
+<div style="position:absolute;left:333.60px;top:764.76px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:338.16px;top:765.00px" class="cls_007"><span class="cls_007">'fil</span></div>
+<div style="position:absolute;left:24.96px;top:773.64px" class="cls_007"><span class="cls_007">..aa</span></div>
+<div style="position:absolute;left:35.04px;top:773.64px" class="cls_007"><span class="cls_007">Z</span></div>
+<div style="position:absolute;left:40.08px;top:773.64px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:45.12px;top:773.64px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:50.16px;top:773.64px" class="cls_007"><span class="cls_007">m</span></div>
+<div style="position:absolute;left:59.76px;top:773.64px" class="cls_007"><span class="cls_007">lni</span></div>
+<div style="position:absolute;left:68.88px;top:773.64px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:73.92px;top:773.64px" class="cls_007"><span class="cls_007">ut</span></div>
+<div style="position:absolute;left:102.72px;top:768.40px" class="cls_021"><span class="cls_021">aiccuTS</span></div>
+<div style="position:absolute;left:130.80px;top:774.12px" class="cls_007"><span class="cls_007">wc</span></div>
+<div style="position:absolute;left:144.72px;top:768.88px" class="cls_042"><span class="cls_042">1XEMOKO</span></div>
+<div style="position:absolute;left:185.04px;top:768.88px" class="cls_042"><span class="cls_042">1TICTI</span></div>
+<div style="position:absolute;left:233.76px;top:773.40px" class="cls_007"><span class="cls_007">i</span></div>
+<div style="position:absolute;left:235.92px;top:773.40px" class="cls_007"><span class="cls_007">m</span></div>
+<div style="position:absolute;left:242.88px;top:773.40px" class="cls_007"><span class="cls_007">p</span></div>
+<div style="position:absolute;left:248.16px;top:773.64px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:253.20px;top:773.64px" class="cls_007"><span class="cls_007">tr</span></div>
+<div style="position:absolute;left:260.40px;top:773.88px" class="cls_007"><span class="cls_007">fr</span></div>
+<div style="position:absolute;left:264.72px;top:773.88px" class="cls_007"><span class="cls_007">o</span></div>
+<div style="position:absolute;left:269.04px;top:773.88px" class="cls_007"><span class="cls_007">m</span></div>
+<div style="position:absolute;left:279.12px;top:773.88px" class="cls_007"><span class="cls_007">vi</span></div>
+<div style="position:absolute;left:284.88px;top:773.88px" class="cls_007"><span class="cls_007">d</span></div>
+<div style="position:absolute;left:289.92px;top:773.88px" class="cls_007"><span class="cls_007">eo.</span></div>
+<div style="position:absolute;left:152.88px;top:781.80px" class="cls_020"><span class="cls_020">T</span></div>
+<div style="position:absolute;left:158.40px;top:778.00px" class="cls_020"><span class="cls_020">,  WI </span><span class="cls_042">wth</span></div>
+<div style="position:absolute;left:181.44px;top:778.48px" class="cls_042"><span class="cls_042">irPoilEtt</span></div>
+<div style="position:absolute;left:213.60px;top:779.68px" class="cls_042"><span class="cls_042">a</span></div>
+</div>
+
+</body>
+</html>
